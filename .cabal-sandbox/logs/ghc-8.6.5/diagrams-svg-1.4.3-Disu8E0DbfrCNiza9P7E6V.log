@@ -1,0 +1,5 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\diagrams-svg-1.4.3-Disu8E0DbfrCNiza9P7E6V
+s.Rendering.SVG ( src\Graphics\Rendering\SVG.hs, dist\dist-sandbox-6d64ec1\build\Graphics\Rendering\SVG.o )
+[2 of 3] Compiling Diagrams.Backend.SVG ( src\Diagrams\Backend\SVG.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\Backend\SVG.o )
+[3 of 3] Compiling Diagrams.Backend.SVG.CmdLine ( src\Diagrams\Backend\SVG\CmdLine.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\Backend\SVG\CmdLine.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\diagrams-svg-1.4.3'

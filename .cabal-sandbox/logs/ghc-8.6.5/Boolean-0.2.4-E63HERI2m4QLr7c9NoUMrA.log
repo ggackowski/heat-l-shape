@@ -1,0 +1,5 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\Boolean-0.2.4-E63HERI2m4QLr7c9NoUMrA
+     ( src\Data\Boolean.hs, dist\dist-sandbox-6d64ec1\build\Data\Boolean.o )
+[2 of 3] Compiling Data.Boolean.Numbers ( src\Data\Boolean\Numbers.hs, dist\dist-sandbox-6d64ec1\build\Data\Boolean\Numbers.o )
+[3 of 3] Compiling Data.Boolean.Overload ( src\Data\Boolean\Overload.hs, dist\dist-sandbox-6d64ec1\build\Data\Boolean\Overload.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\Boolean-0.2.4'

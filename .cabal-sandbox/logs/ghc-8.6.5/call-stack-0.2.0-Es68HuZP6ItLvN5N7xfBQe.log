@@ -1,0 +1,5 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\call-stack-0.2.0-Es68HuZP6ItLvN5N7xfBQe
+oc      ( src\Data\SrcLoc.hs, dist\dist-sandbox-6d64ec1\build\Data\SrcLoc.o )
+[2 of 3] Compiling Data.CallStack   ( src\Data\CallStack.hs, dist\dist-sandbox-6d64ec1\build\Data\CallStack.o )
+[3 of 3] Compiling Paths_call_stack ( dist\dist-sandbox-6d64ec1\build\autogen\Paths_call_stack.hs, dist\dist-sandbox-6d64ec1\build\Paths_call_stack.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8634\call-stack-0.2.0'

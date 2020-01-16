@@ -1,0 +1,110 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\MonadRandom-0.5.1.1-EICo0dIZeOaIM3boQR0QsO
+l.Monad.Random.Class ( Control\Monad\Random\Class.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Random\Class.o )
+
+Control\Monad\Random\Class.hs:57:1: warning: [-Wdeprecations]
+    Module `Control.Monad.Trans.Error' is deprecated:
+      Use Control.Monad.Trans.Except instead
+   |
+57 | import           Control.Monad.Trans.Error
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control\Monad\Random\Class.hs:60:1: warning: [-Wdeprecations]
+    Module `Control.Monad.Trans.List' is deprecated:
+      This transformer is invalid on most monads
+   |
+60 | import           Control.Monad.Trans.List
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Control\Monad\Random\Class.hs:133:11: warning: [-Wdeprecations]
+    In the use of type constructor or class `Error'
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+133 | instance (Error e, MonadRandom m) => MonadRandom (ErrorT e m) where
+    |           ^^^^^
+
+Control\Monad\Random\Class.hs:133:51: warning: [-Wdeprecations]
+    In the use of type constructor or class `ErrorT'
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+133 | instance (Error e, MonadRandom m) => MonadRandom (ErrorT e m) where
+    |                                                   ^^^^^^
+
+Control\Monad\Random\Class.hs:151:42: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+151 | instance (MonadRandom m) => MonadRandom (ListT m) where
+    |                                          ^^^^^
+
+Control\Monad\Random\Class.hs:230:11: warning: [-Wdeprecations]
+    In the use of type constructor or class `Error'
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+230 | instance (Error e, MonadSplit g m) => MonadSplit g (ErrorT e m) where
+    |           ^^^^^
+
+Control\Monad\Random\Class.hs:230:53: warning: [-Wdeprecations]
+    In the use of type constructor or class `ErrorT'
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+230 | instance (Error e, MonadSplit g m) => MonadSplit g (ErrorT e m) where
+    |                                                     ^^^^^^
+
+Control\Monad\Random\Class.hs:239:44: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+239 | instance (MonadSplit g m) => MonadSplit g (ListT m) where
+    |                                            ^^^^^
+
+Control\Monad\Random\Class.hs:321:11: warning: [-Wdeprecations]
+    In the use of type constructor or class `Error'
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+321 | instance (Error e, MonadInterleave m) => MonadInterleave (ErrorT e m) where
+    |           ^^^^^
+
+Control\Monad\Random\Class.hs:321:59: warning: [-Wdeprecations]
+    In the use of type constructor or class `ErrorT'
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+321 | instance (Error e, MonadInterleave m) => MonadInterleave (ErrorT e m) where
+    |                                                           ^^^^^^
+
+Control\Monad\Random\Class.hs:322:16: warning: [-Wdeprecations]
+    In the use of `mapErrorT'
+    (imported from Control.Monad.Trans.Error):
+    Deprecated: "Use Control.Monad.Trans.Except instead"
+    |
+322 |   interleave = mapErrorT interleave
+    |                ^^^^^^^^^
+
+Control\Monad\Random\Class.hs:330:50: warning: [-Wdeprecations]
+    In the use of type constructor or class `ListT'
+    (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+330 | instance (MonadInterleave m) => MonadInterleave (ListT m) where
+    |                                                  ^^^^^
+
+Control\Monad\Random\Class.hs:331:16: warning: [-Wdeprecations]
+    In the use of `mapListT' (imported from Control.Monad.Trans.List):
+    Deprecated: "This transformer is invalid on most monads"
+    |
+331 |   interleave = mapListT interleave
+    |                ^^^^^^^^
+[2 of 7] Compiling Control.Monad.Trans.Random.Lazy ( Control\Monad\Trans\Random\Lazy.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Trans\Random\Lazy.o )
+[3 of 7] Compiling Control.Monad.Trans.Random ( Control\Monad\Trans\Random.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Trans\Random.o )
+[4 of 7] Compiling Control.Monad.Random.Lazy ( Control\Monad\Random\Lazy.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Random\Lazy.o )
+[5 of 7] Compiling Control.Monad.Random ( Control\Monad\Random.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Random.o )
+[6 of 7] Compiling Control.Monad.Trans.Random.Strict ( Control\Monad\Trans\Random\Strict.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Trans\Random\Strict.o )
+[7 of 7] Compiling Control.Monad.Random.Strict ( Control\Monad\Random\Strict.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Random\Strict.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\MonadRandom-0.5.1.1'

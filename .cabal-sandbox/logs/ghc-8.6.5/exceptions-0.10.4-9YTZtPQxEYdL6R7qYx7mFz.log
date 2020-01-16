@@ -1,0 +1,4 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\exceptions-0.10.4-9YTZtPQxEYdL6R7qYx7mFz
+Monad.Catch ( src\Control\Monad\Catch.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Catch.o )
+[2 of 2] Compiling Control.Monad.Catch.Pure ( src\Control\Monad\Catch\Pure.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Catch\Pure.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8634\exceptions-0.10.4'

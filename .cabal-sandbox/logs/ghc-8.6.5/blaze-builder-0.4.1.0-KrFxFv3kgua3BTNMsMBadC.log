@@ -1,0 +1,13 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\blaze-builder-0.4.1.0-KrFxFv3kgua3BTNMsMBadC
+aze.ByteString.Builder.Internal.Write ( Blaze\ByteString\Builder\Internal\Write.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\Internal\Write.o )
+[ 2 of 11] Compiling Blaze.ByteString.Builder.Compat.Write ( Blaze\ByteString\Builder\Compat\Write.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\Compat\Write.o )
+[ 3 of 11] Compiling Blaze.ByteString.Builder.Int ( Blaze\ByteString\Builder\Int.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\Int.o )
+[ 4 of 11] Compiling Blaze.ByteString.Builder.Html.Word ( Blaze\ByteString\Builder\Html\Word.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\Html\Word.o )
+[ 5 of 11] Compiling Blaze.ByteString.Builder.Char8 ( Blaze\ByteString\Builder\Char8.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\Char8.o )
+[ 6 of 11] Compiling Blaze.ByteString.Builder.Char.Utf8 ( Blaze\ByteString\Builder\Char\Utf8.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\Char\Utf8.o )
+[ 7 of 11] Compiling Blaze.ByteString.Builder.Html.Utf8 ( Blaze\ByteString\Builder\Html\Utf8.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\Html\Utf8.o )
+[ 8 of 11] Compiling Blaze.ByteString.Builder.ByteString ( Blaze\ByteString\Builder\ByteString.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\ByteString.o )
+[ 9 of 11] Compiling Blaze.ByteString.Builder.HTTP ( Blaze\ByteString\Builder\HTTP.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\HTTP.o )
+[10 of 11] Compiling Blaze.ByteString.Builder.Word ( Blaze\ByteString\Builder\Word.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder\Word.o )
+[11 of 11] Compiling Blaze.ByteString.Builder ( Blaze\ByteString\Builder.hs, dist\dist-sandbox-6d64ec1\build\Blaze\ByteString\Builder.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\blaze-builder-0.4.1.0'

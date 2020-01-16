@@ -1,0 +1,290 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\fast-math-1.0.2-CYQxQqefzIC7Anz0bnQTyz
+stMath.Approximation ( Numeric\FastMath\Approximation.hs, dist\dist-sandbox-6d64ec1\build\Numeric\FastMath\Approximation.o )
+
+Numeric\FastMath\Approximation.hs:19:1: warning: [-Wunused-imports]
+    The import of `Prelude' is redundant
+      except perhaps to import instances from `Prelude'
+    To import instances alone, use: import Prelude()
+   |
+19 | import Prelude
+   | ^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:32:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,+ distribute A" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+32 | "double *,+ distribute A" forall x y1 y2. (x *## y1) +## (x *## y2) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:35:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,+ distribute B" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+35 | "double *,+ distribute B" forall x y1 y2. (y1 *## x) +## (x *## y2) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:38:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,+ distribute C" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+38 | "double *,+ distribute C" forall x y1 y2. (y1 *## x) +## (y2 *## x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:41:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,+ distribute D" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+41 | "double *,+ distribute D" forall x y1 y2. (x *## y1) +## (y2 *## x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:46:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,- distribute A" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+46 | "double *,- distribute A" forall x y1 y2. (x *## y1) -## (x *## y2) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:49:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,- distribute B" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+49 | "double *,- distribute B" forall x y1 y2. (y1 *## x) -## (x *## y2) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:52:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,- distribute C" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+52 | "double *,- distribute C" forall x y1 y2. (y1 *## x) -## (y2 *## x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:55:1: warning: [-Winline-rule-shadowing]
+    Rule "double *,- distribute D" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+55 | "double *,- distribute D" forall x y1 y2. (x *## y1) -## (y2 *## x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:60:1: warning:
+    RULE left-hand side too complicated to desugar
+      Optimised lhs: case /## y2 x of wild_00 { __DEFAULT ->
+                     (case /## y1 x of wild_X2 { __DEFAULT -> +## wild_X2 }) wild_00
+                     }
+      Orig lhs: case /## y2 x of wild_00 { __DEFAULT ->
+                (case /## y1 x of wild_00 { __DEFAULT -> +## wild_00 }) wild_00
+                }
+   |
+60 | "double /,+ distribute" forall x y1 y2. (y1 /## x) +## (y2 /## x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:63:1: warning:
+    RULE left-hand side too complicated to desugar
+      Optimised lhs: case /## y2 x of wild_00 { __DEFAULT ->
+                     (case /## y1 x of wild_X2 { __DEFAULT -> -## wild_X2 }) wild_00
+                     }
+      Orig lhs: case /## y2 x of wild_00 { __DEFAULT ->
+                (case /## y1 x of wild_00 { __DEFAULT -> -## wild_00 }) wild_00
+                }
+   |
+63 | "double /,- distribute" forall x y1 y2. (y1 /## x) -## (y2 /## x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:72:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,+ distribute A" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+72 | "float *,+ distribute A" forall x y1 y2. (x `timesFloat#` y1) `plusFloat#` (x `timesFloat#` y2) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:75:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,+ distribute B" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+75 | "float *,+ distribute B" forall x y1 y2. (y1 `timesFloat#` x) `plusFloat#` (x `timesFloat#` y2) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:78:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,+ distribute C" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+78 | "float *,+ distribute C" forall x y1 y2. (y1 `timesFloat#` x) `plusFloat#` (y2 `timesFloat#` x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:81:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,+ distribute D" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+81 | "float *,+ distribute D" forall x y1 y2. (x `timesFloat#` y1) `plusFloat#` (y2 `timesFloat#` x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:86:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,- distribute A" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+86 | "float *,- distribute A" forall x y1 y2. (x `timesFloat#` y1) `minusFloat#` (x `timesFloat#` y2) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:89:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,- distribute B" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+89 | "float *,- distribute B" forall x y1 y2. (y1 `timesFloat#` x) `minusFloat#` (x `timesFloat#` y2) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:92:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,- distribute C" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+92 | "float *,- distribute C" forall x y1 y2. (y1 `timesFloat#` x) `minusFloat#` (y2 `timesFloat#` x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:95:1: warning: [-Winline-rule-shadowing]
+    Rule "float *,- distribute D" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+   |
+95 | "float *,- distribute D" forall x y1 y2. (x `timesFloat#` y1) `minusFloat#` (y2 `timesFloat#` x) 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:100:1: warning: [-Winline-rule-shadowing]
+    Rule "float /,+ distribute" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+100 | "float /,+ distribute" forall x y1 y2. (y1 `timesFloat#` x) `plusFloat#` (y2 `timesFloat#` x) 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:103:1: warning:
+    RULE left-hand side too complicated to desugar
+      Optimised lhs: case divideFloat# y2 x of wild_00 { __DEFAULT ->
+                     (case divideFloat# y1 x of wild_X2 { __DEFAULT ->
+                      minusFloat# wild_X2
+                      })
+                       wild_00
+                     }
+      Orig lhs: case divideFloat# y2 x of wild_00 { __DEFAULT ->
+                (case divideFloat# y1 x of wild_00 { __DEFAULT ->
+                 minusFloat# wild_00
+                 })
+                  wild_00
+                }
+    |
+103 | "float /,- distribute" forall x y1 y2. (y1 `divideFloat#` x) `minusFloat#` (y2 `divideFloat#` x) 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:165:1: warning: [-Winline-rule-shadowing]
+    Rule "double commute left *" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+165 | "double commute left *"   [~2] forall x1 x2 x3. (*##) x1 ((*##) x2 x3) = (*##) ((*##) x2 x3) x1
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:166:1: warning: [-Winline-rule-shadowing]
+    Rule "double associate left *" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+166 | "double associate left *" [~1] forall x1 x2 x3. (*##) x1 ((*##) x2 x3) = (*##) ((*##) x1 x2) x3
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:168:1: warning: [-Winline-rule-shadowing]
+    Rule "double commute left +" may never fire
+      because rule "+##" for `+##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+168 | "double commute left +"   [~2] forall x1 x2 x3. (+##) x1 ((+##) x2 x3) = (+##) ((+##) x2 x3) x1
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:169:1: warning: [-Winline-rule-shadowing]
+    Rule "double associate left +" may never fire
+      because rule "+##" for `+##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+169 | "double associate left +" [~1] forall x1 x2 x3. (+##) x1 ((+##) x2 x3) = (+##) ((+##) x1 x2) x3
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:175:1: warning: [-Winline-rule-shadowing]
+    Rule "float commute left *" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+175 | "float commute left *"   [~2] forall x1 x2 x3. timesFloat# x1 (timesFloat# x2 x3) = timesFloat# (timesFloat# x2 x3) x1
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:176:1: warning: [-Winline-rule-shadowing]
+    Rule "float associate left *" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+176 | "float associate left *" [~1] forall x1 x2 x3. timesFloat# x1 (timesFloat# x2 x3) = timesFloat# (timesFloat# x1 x2) x3
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:178:1: warning: [-Winline-rule-shadowing]
+    Rule "float commute left +" may never fire
+      because rule "plusFloat#" for `plusFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+178 | "float commute left +"   [~2] forall x1 x2 x3. plusFloat# x1 (plusFloat# x2 x3) = plusFloat# (plusFloat# x2 x3) x1
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:179:1: warning: [-Winline-rule-shadowing]
+    Rule "float associate left +" may never fire
+      because rule "plusFloat#" for `plusFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+179 | "float associate left +" [~1] forall x1 x2 x3. plusFloat# x1 (plusFloat# x2 x3) = plusFloat# (plusFloat# x1 x2) x3
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath\Approximation.hs:191:1: warning: [-Winline-rule-shadowing]
+    Rule "double repmul 4" may never fire
+      because rule "*##" for `*##' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+191 | "double repmul 4" [1] forall x . ((x *## x) *## x) *## x 
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+Numeric\FastMath\Approximation.hs:210:1: warning: [-Winline-rule-shadowing]
+    Rule "double repmul 4" may never fire
+      because rule "timesFloat#" for `timesFloat#' might fire first
+    Probable fix: add phase [n] or [~n] to the competing rule
+    |
+210 | "double repmul 4" [1] forall x . timesFloat# x (timesFloat# x (timesFloat# x x))
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+[2 of 4] Compiling Numeric.FastMath.NaN ( Numeric\FastMath\NaN.hs, dist\dist-sandbox-6d64ec1\build\Numeric\FastMath\NaN.o )
+[3 of 4] Compiling Numeric.FastMath.SignedZeros ( Numeric\FastMath\SignedZeros.hs, dist\dist-sandbox-6d64ec1\build\Numeric\FastMath\SignedZeros.o )
+[4 of 4] Compiling Numeric.FastMath ( Numeric\FastMath.hs, dist\dist-sandbox-6d64ec1\build\Numeric\FastMath.o )
+
+Numeric\FastMath.hs:10:7: warning: [-Wdodgy-exports]
+    The export item `module Numeric.FastMath.Approximation' exports nothing
+   |
+10 |     ( module Numeric.FastMath.Approximation
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath.hs:11:7: warning: [-Wdodgy-exports]
+    The export item `module Numeric.FastMath.NaN' exports nothing
+   |
+11 |     , module Numeric.FastMath.NaN
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Numeric\FastMath.hs:12:7: warning: [-Wdodgy-exports]
+    The export item `module Numeric.FastMath.SignedZeros' exports nothing
+   |
+12 |     , module Numeric.FastMath.SignedZeros
+   |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\fast-math-1.0.2'

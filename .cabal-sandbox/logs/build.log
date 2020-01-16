@@ -1,0 +1,1011 @@
+
+package: Boolean-0.2.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: JuicyPixels-3.3.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -mmap
+dependencies: base-4.12.0.0 binary-0.8.6.0 bytestring-0.10.8.2
+              containers-0.6.0.1 deepseq-1.4.4.0 mtl-2.2.2 primitive-0.7.0.0
+              transformers-0.5.6.2 vector-0.12.0.3 zlib-0.6.2.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: MemoTrie-0.6.10
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -examples
+dependencies: base-4.12.0.0 newtype-generics-0.5.4
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: MonadRandom-0.5.1.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 mtl-2.2.2 primitive-0.7.0.0 random-1.1
+              transformers-0.5.6.2 transformers-compat-0.6.5
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: NumInstances-1.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: StateVar-1.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 stm-2.5.0.0 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: active-0.2.0.14
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 lens-4.18.1 linear-1.20.9
+              semigroupoids-5.3.4 semigroups-0.19.1 vector-0.12.0.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: adjunctions-4.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: array-0.5.3.0 base-4.12.0.0 comonad-5.0.6
+              containers-0.6.0.1 contravariant-1.5.2 distributive-0.6.1
+              free-5.1.3 mtl-2.2.2 profunctors-5.5.1 semigroupoids-5.3.4
+              semigroups-0.19.1 tagged-0.8.6 transformers-0.5.6.2
+              transformers-compat-0.6.5 void-0.7.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: ansi-terminal-0.10.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -example
+dependencies: Win32-2.6.1.0 base-4.12.0.0 colour-2.3.5
+              containers-0.6.0.1 mintty-0.1.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: ansi-wl-pprint-0.6.9
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -example
+dependencies: ansi-terminal-0.10.2 base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: async-2.2.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -bench
+dependencies: base-4.12.0.0 hashable-1.3.0.0 stm-2.5.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: base-orphans-0.8.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 ghc-prim-0.5.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: base64-bytestring-1.0.0.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 bytestring-0.10.8.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: bifunctors-5.5.6
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: semigroups tagged
+dependencies: base-4.12.0.0 base-orphans-0.8.1 comonad-5.0.6
+              containers-0.6.0.1 tagged-0.8.6 template-haskell-2.14.0.0
+              th-abstraction-0.3.1.0 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: binary-orphans-1.0.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 binary-0.8.6.0 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: blaze-builder-0.4.1.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 bytestring-0.10.8.2 deepseq-1.4.4.0
+              text-1.2.3.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: bytes-0.16
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: test-doctests
+dependencies: base-4.12.0.0 binary-0.8.6.0 binary-orphans-1.0.1
+              bytestring-0.10.8.2 cereal-0.5.8.1 containers-0.6.0.1
+              hashable-1.3.0.0 mtl-2.2.2 scientific-0.3.6.2 text-1.2.3.1
+              time-1.8.0.2 transformers-0.5.6.2 transformers-compat-0.6.5
+              unordered-containers-0.2.10.0 void-0.7.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: cabal-doctest-1.0.8
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: Cabal-2.4.0.1 base-4.12.0.0 directory-1.3.3.0
+              filepath-1.4.2.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: call-stack-0.2.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: cereal-0.5.8.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -bytestring-builder
+dependencies: array-0.5.3.0 base-4.12.0.0 bytestring-0.10.8.2
+              containers-0.6.0.1 ghc-prim-0.5.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: circle-packing-0.1.0.6
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: colour-2.3.5
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: comonad-5.0.6
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: containers distributive test-doctests
+dependencies: base-4.12.0.0 containers-0.6.0.1 distributive-0.6.1
+              tagged-0.8.6 transformers-0.5.6.2 transformers-compat-0.6.5
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: contravariant-1.5.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: semigroups statevar tagged
+dependencies: StateVar-1.2 base-4.12.0.0 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: cubicbezier-0.6.0.6
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -debug
+dependencies: base-4.12.0.0 containers-0.6.0.1 fast-math-1.0.2
+              integration-0.2.1 matrices-0.5.0 microlens-0.4.11.2
+              microlens-mtl-0.2.0.1 microlens-th-0.4.3.2 mtl-2.2.2
+              vector-0.12.0.3 vector-space-0.16
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: data-default-0.7.1.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 data-default-class-0.1.2.0
+              data-default-instances-containers-0.0.1
+              data-default-instances-dlist-0.0.1
+              data-default-instances-old-locale-0.0.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: data-default-class-0.1.2.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: data-default-instances-containers-0.0.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 containers-0.6.0.1
+              data-default-class-0.1.2.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: data-default-instances-dlist-0.0.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 data-default-class-0.1.2.0
+              dlist-0.8.0.7
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: data-default-instances-old-locale-0.0.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 data-default-class-0.1.2.0
+              old-locale-1.0.0.7
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: diagrams-1.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -cairo -canvas -gtk -postscript -ps -rasterific svg
+dependencies: diagrams-contrib-1.4.4 diagrams-core-1.4.2
+              diagrams-lib-1.4.3 diagrams-svg-1.4.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: diagrams-contrib-1.4.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: MonadRandom-0.5.1.1 base-4.12.0.0
+              circle-packing-0.1.0.6 colour-2.3.5 containers-0.6.0.1
+              cubicbezier-0.6.0.6 data-default-0.7.1.1 data-default-class-0.1.2.0
+              diagrams-core-1.4.2 diagrams-lib-1.4.3 diagrams-solve-0.1.1
+              force-layout-0.4.0.6 hashable-1.3.0.0 lens-4.18.1 linear-1.20.9
+              mfsolve-0.3.2.0 monoid-extras-0.5.1 mtl-2.2.2 mtl-compat-0.2.2
+              parsec-3.1.13.0 random-1.1 semigroups-0.19.1 split-0.2.3.3
+              text-1.2.3.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: diagrams-core-1.4.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: adjunctions-4.4 base-4.12.0.0 containers-0.6.0.1
+              distributive-0.6.1 dual-tree-0.2.2.1 lens-4.18.1 linear-1.20.9
+              monoid-extras-0.5.1 mtl-2.2.2 profunctors-5.5.1 semigroups-0.19.1
+              unordered-containers-0.2.10.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: diagrams-lib-1.4.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: JuicyPixels-3.3.4 active-0.2.0.14 adjunctions-4.4
+              array-0.5.3.0 base-4.12.0.0 bytestring-0.10.8.2 cereal-0.5.8.1
+              colour-2.3.5 containers-0.6.0.1 data-default-class-0.1.2.0
+              diagrams-core-1.4.2 diagrams-solve-0.1.1 directory-1.3.3.0
+              distributive-0.6.1 dual-tree-0.2.2.1 exceptions-0.10.4
+              filepath-1.4.2.1 fingertree-0.1.4.2 fsnotify-0.3.0.1
+              hashable-1.3.0.0 intervals-0.9 lens-4.18.1 linear-1.20.9
+              monoid-extras-0.5.1 mtl-2.2.2 optparse-applicative-0.15.1.0
+              process-1.6.5.0 profunctors-5.5.1 semigroups-0.19.1 tagged-0.8.6
+              text-1.2.3.1 transformers-0.5.6.2 unordered-containers-0.2.10.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: diagrams-solve-0.1.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: diagrams-svg-1.4.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: JuicyPixels-3.3.4 base-4.12.0.0
+              base64-bytestring-1.0.0.3 bytestring-0.10.8.2 colour-2.3.5
+              containers-0.6.0.1 diagrams-core-1.4.2 diagrams-lib-1.4.3
+              filepath-1.4.2.1 hashable-1.3.0.0 lens-4.18.1 monoid-extras-0.5.1
+              mtl-2.2.2 optparse-applicative-0.15.1.0 semigroups-0.19.1
+              split-0.2.3.3 svg-builder-0.1.1 text-1.2.3.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: distributive-0.6.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: semigroups tagged
+dependencies: base-4.12.0.0 base-orphans-0.8.1 tagged-0.8.6
+              transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: dlist-0.8.0.7
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 deepseq-1.4.4.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: dual-tree-0.2.2.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 monoid-extras-0.5.1
+              newtype-generics-0.5.4 semigroups-0.19.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: exceptions-0.10.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: transformers-0-4
+dependencies: base-4.12.0.0 mtl-2.2.2 stm-2.5.0.0
+              template-haskell-2.14.0.0 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: fast-math-1.0.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: fingertree-0.1.4.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: force-layout-0.4.0.6
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 containers-0.6.0.1
+              data-default-class-0.1.2.0 lens-4.18.1 linear-1.20.9
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: free-5.1.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 comonad-5.0.6 containers-0.6.0.1
+              distributive-0.6.1 exceptions-0.10.4 mtl-2.2.2 profunctors-5.5.1
+              semigroupoids-5.3.4 template-haskell-2.14.0.0 transformers-0.5.6.2
+              transformers-base-0.4.5.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: fsnotify-0.3.0.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: Win32-2.6.1.0 async-2.2.2 base-4.12.0.0
+              bytestring-0.10.8.2 containers-0.6.0.1 directory-1.3.3.0
+              filepath-1.4.2.1 text-1.2.3.1 time-1.8.0.2 unix-compat-0.5.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: groups-0.4.1.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: hashable-1.3.0.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -examples integer-gmp sse2 -sse41
+dependencies: base-4.12.0.0 bytestring-0.10.8.2 deepseq-1.4.4.0
+              ghc-prim-0.5.3 integer-gmp-1.0.2.0 text-1.2.3.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: integer-logarithms-1.0.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -check-bounds integer-gmp
+dependencies: array-0.5.3.0 base-4.12.0.0 ghc-prim-0.5.3
+              integer-gmp-1.0.2.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: integration-0.2.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 parallel-3.2.2.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: intervals-0.9
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -herbie test-doctests
+dependencies: array-0.5.3.0 base-4.12.0.0 distributive-0.6.1
+              ghc-prim-0.5.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: invariant-0.5.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: StateVar-1.2 array-0.5.3.0 base-4.12.0.0
+              bifunctors-5.5.6 comonad-5.0.6 containers-0.6.0.1
+              contravariant-1.5.2 ghc-prim-0.5.3 profunctors-5.5.1 stm-2.5.0.0
+              tagged-0.8.6 template-haskell-2.14.0.0 th-abstraction-0.3.1.0
+              transformers-0.5.6.2 transformers-compat-0.6.5
+              unordered-containers-0.2.10.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: kan-extensions-5.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: adjunctions-4.4 array-0.5.3.0 base-4.12.0.0
+              comonad-5.0.6 containers-0.6.0.1 contravariant-1.5.2
+              distributive-0.6.1 free-5.1.3 invariant-0.5.3 mtl-2.2.2
+              profunctors-5.5.1 semigroupoids-5.3.4 tagged-0.8.6
+              transformers-0.5.6.2 transformers-compat-0.6.5
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: lens-4.18.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -benchmark-uniplate -dump-splices inlining -j
+       -old-inline-pragmas -safe test-doctests test-hunit test-properties
+       test-templates trustworthy
+dependencies: array-0.5.3.0 base-4.12.0.0 base-orphans-0.8.1
+              bifunctors-5.5.6 bytestring-0.10.8.2 call-stack-0.2.0 comonad-5.0.6
+              containers-0.6.0.1 contravariant-1.5.2 distributive-0.6.1
+              exceptions-0.10.4 filepath-1.4.2.1 free-5.1.3 ghc-prim-0.5.3
+              hashable-1.3.0.0 kan-extensions-5.2 mtl-2.2.2 parallel-3.2.2.0
+              profunctors-5.5.1 reflection-2.1.5 semigroupoids-5.3.4 tagged-0.8.6
+              template-haskell-2.14.0.0 text-1.2.3.1 th-abstraction-0.3.1.0
+              transformers-0.5.6.2 transformers-compat-0.6.5 type-equality-1
+              unordered-containers-0.2.10.0 vector-0.12.0.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: linear-1.20.9
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -herbie template-haskell
+dependencies: adjunctions-4.4 base-4.12.0.0 base-orphans-0.8.1
+              binary-0.8.6.0 bytes-0.16 cereal-0.5.8.1 containers-0.6.0.1
+              deepseq-1.4.4.0 distributive-0.6.1 ghc-prim-0.5.3 hashable-1.3.0.0
+              lens-4.18.1 reflection-2.1.5 semigroupoids-5.3.4 semigroups-0.19.1
+              tagged-0.8.6 template-haskell-2.14.0.0 transformers-0.5.6.2
+              transformers-compat-0.6.5 unordered-containers-0.2.10.0
+              vector-0.12.0.3 void-0.7.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: matrices-0.5.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 deepseq-1.4.4.0 primitive-0.7.0.0
+              vector-0.12.0.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: mfsolve-0.3.2.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 hashable-1.3.0.0 mtl-2.2.2
+              mtl-compat-0.2.2 unordered-containers-0.2.10.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: microlens-0.4.11.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: microlens-mtl-0.2.0.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 microlens-0.4.11.2 mtl-2.2.2
+              transformers-0.5.6.2 transformers-compat-0.6.5
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: microlens-th-0.4.3.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 containers-0.6.0.1 microlens-0.4.11.2
+              template-haskell-2.14.0.0 th-abstraction-0.3.1.0
+              transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: mintty-0.1.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: win32-2-5-3
+dependencies: Win32-2.6.1.0 base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: monoid-extras-0.5.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 groups-0.4.1.0 semigroupoids-5.3.4
+              semigroups-0.19.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: mtl-compat-0.2.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -two-point-one -two-point-two
+dependencies: base-4.12.0.0 mtl-2.2.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: newtype-generics-0.5.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: old-locale-1.0.0.7
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: optparse-applicative-0.15.1.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: ansi-wl-pprint-0.6.9 base-4.12.0.0 process-1.6.5.0
+              transformers-0.5.6.2 transformers-compat-0.6.5
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: parallel-3.2.2.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: array-0.5.3.0 base-4.12.0.0 containers-0.6.0.1
+              deepseq-1.4.4.0 ghc-prim-0.5.3
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: primitive-0.7.0.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 ghc-prim-0.5.3 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: profunctors-5.5.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 base-orphans-0.8.1 bifunctors-5.5.6
+              comonad-5.0.6 contravariant-1.5.2 distributive-0.6.1 tagged-0.8.6
+              transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: random-1.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 time-1.8.0.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: reflection-2.1.5
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -slow template-haskell
+dependencies: base-4.12.0.0 template-haskell-2.14.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: scientific-0.3.6.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -bytestring-builder -integer-simple
+dependencies: base-4.12.0.0 binary-0.8.6.0 bytestring-0.10.8.2
+              containers-0.6.0.1 deepseq-1.4.4.0 hashable-1.3.0.0
+              integer-gmp-1.0.2.0 integer-logarithms-1.0.3 primitive-0.7.0.0
+              text-1.2.3.1
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: semigroupoids-5.3.4
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: comonad containers contravariant distributive doctests
+       tagged unordered-containers
+dependencies: base-4.12.0.0 base-orphans-0.8.1 bifunctors-5.5.6
+              comonad-5.0.6 containers-0.6.0.1 contravariant-1.5.2
+              distributive-0.6.1 hashable-1.3.0.0 tagged-0.8.6
+              template-haskell-2.14.0.0 transformers-0.5.6.2
+              transformers-compat-0.6.5 unordered-containers-0.2.10.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: semigroups-0.19.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: binary bytestring -bytestring-builder containers deepseq
+       hashable tagged template-haskell text transformers
+       unordered-containers
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: split-0.2.3.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: svg-builder-0.1.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 blaze-builder-0.4.1.0
+              bytestring-0.10.8.2 hashable-1.3.0.0 text-1.2.3.1
+              unordered-containers-0.2.10.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: tagged-0.8.6
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: deepseq transformers
+dependencies: base-4.12.0.0 deepseq-1.4.4.0
+              template-haskell-2.14.0.0 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: th-abstraction-0.3.1.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0 containers-0.6.0.1 ghc-prim-0.5.3
+              template-haskell-2.14.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: transformers-base-0.4.5.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: orphaninstances
+dependencies: base-4.12.0.0 base-orphans-0.8.1 stm-2.5.0.0
+              transformers-0.5.6.2 transformers-compat-0.6.5
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: transformers-compat-0.6.5
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -five five-three -four generic-deriving mtl -three -two
+dependencies: base-4.12.0.0 ghc-prim-0.5.3 transformers-0.5.6.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: type-equality-1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: unix-compat-0.5.2
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -old-time
+dependencies: Win32-2.6.1.0 base-4.12.0.0 directory-1.3.3.0
+              time-1.8.0.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: unordered-containers-0.2.10.0
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -debug
+dependencies: base-4.12.0.0 deepseq-1.4.4.0 hashable-1.3.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: vector-0.12.0.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: boundschecks -internalchecks -unsafechecks -wall
+dependencies: base-4.12.0.0 deepseq-1.4.4.0 ghc-prim-0.5.3
+              primitive-0.7.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: vector-space-0.16
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+dependencies: Boolean-0.2.4 MemoTrie-0.6.10 NumInstances-1.4
+              base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: void-0.7.3
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -safe
+dependencies: base-4.12.0.0
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried
+
+package: zlib-0.6.2.1
+os: windows
+arch: x86_64
+compiler: ghc-8.6.5
+client: cabal-install-2.4.1.0
+flags: -non-blocking-ffi -pkg-config
+dependencies: base-4.12.0.0 bytestring-0.10.8.2
+install-outcome: InstallOk
+docs-outcome: NotTried
+tests-outcome: NotTried

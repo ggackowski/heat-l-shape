@@ -1,0 +1,5 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\contravariant-1.5.2-EcByWFpMv5PIMqVf2KxJah
+unctor.Contravariant.Divisible ( src\Data\Functor\Contravariant\Divisible.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Contravariant\Divisible.o )
+[2 of 3] Compiling Data.Functor.Contravariant.Compose ( src\Data\Functor\Contravariant\Compose.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Contravariant\Compose.o )
+[3 of 3] Compiling Data.Functor.Contravariant.Generic ( src\Data\Functor\Contravariant\Generic.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Contravariant\Generic.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\contravariant-1.5.2'

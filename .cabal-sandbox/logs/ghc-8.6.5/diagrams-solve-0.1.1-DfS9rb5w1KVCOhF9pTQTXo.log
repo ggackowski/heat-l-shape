@@ -1,0 +1,4 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\diagrams-solve-0.1.1-DfS9rb5w1KVCOhF9pTQTXo
+ams.Solve.Polynomial ( src\Diagrams\Solve\Polynomial.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\Solve\Polynomial.o )
+[2 of 2] Compiling Diagrams.Solve.Tridiagonal ( src\Diagrams\Solve\Tridiagonal.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\Solve\Tridiagonal.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\diagrams-solve-0.1.1'

@@ -1,0 +1,17 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\comonad-5.0.6-70FXRTO2MI01Vjhqw6Q24m
+monad  ( src\Control\Comonad.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad.o )
+[ 2 of 15] Compiling Control.Comonad.Hoist.Class ( src\Control\Comonad\Hoist\Class.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Hoist\Class.o )
+[ 3 of 15] Compiling Control.Comonad.Trans.Class ( src\Control\Comonad\Trans\Class.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Trans\Class.o )
+[ 4 of 15] Compiling Control.Comonad.Trans.Env ( src\Control\Comonad\Trans\Env.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Trans\Env.o )
+[ 5 of 15] Compiling Control.Comonad.Trans.Identity ( src\Control\Comonad\Trans\Identity.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Trans\Identity.o )
+[ 6 of 15] Compiling Control.Comonad.Identity ( src\Control\Comonad\Identity.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Identity.o )
+[ 7 of 15] Compiling Control.Comonad.Trans.Store ( src\Control\Comonad\Trans\Store.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Trans\Store.o )
+[ 8 of 15] Compiling Control.Comonad.Trans.Traced ( src\Control\Comonad\Trans\Traced.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Trans\Traced.o )
+[ 9 of 15] Compiling Control.Comonad.Traced.Class ( src\Control\Comonad\Traced\Class.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Traced\Class.o )
+[10 of 15] Compiling Control.Comonad.Traced ( src\Control\Comonad\Traced.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Traced.o )
+[11 of 15] Compiling Control.Comonad.Store.Class ( src\Control\Comonad\Store\Class.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Store\Class.o )
+[12 of 15] Compiling Control.Comonad.Store ( src\Control\Comonad\Store.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Store.o )
+[13 of 15] Compiling Control.Comonad.Env.Class ( src\Control\Comonad\Env\Class.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Env\Class.o )
+[14 of 15] Compiling Control.Comonad.Env ( src\Control\Comonad\Env.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Env.o )
+[15 of 15] Compiling Data.Functor.Composition ( src\Data\Functor\Composition.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Composition.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\comonad-5.0.6'

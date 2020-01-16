@@ -1,0 +1,3 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\data-default-instances-dlist-0.0.1-EYHsVZ9iW653TiIpm439R4
+ompiling Data.Default.Instances.DList ( Data\Default\Instances\DList.hs, dist\dist-sandbox-6d64ec1\build\Data\Default\Instances\DList.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\data-default-instances-dlist-0.0.1'

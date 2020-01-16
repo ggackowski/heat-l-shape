@@ -1,0 +1,7 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\NumInstances-1.4-FTgry5pvGdVHxLDnuvIyG6
+nstances.PreRequisites ( src-relaxed-Num\Data\NumInstances\PreRequisites.hs, dist\dist-sandbox-6d64ec1\build\Data\NumInstances\PreRequisites.o )
+[2 of 5] Compiling Data.NumInstances.Function ( src\Data\NumInstances\Function.hs, dist\dist-sandbox-6d64ec1\build\Data\NumInstances\Function.o )
+[3 of 5] Compiling Data.NumInstances.Tuple ( src\Data\NumInstances\Tuple.hs, dist\dist-sandbox-6d64ec1\build\Data\NumInstances\Tuple.o )
+[4 of 5] Compiling Data.NumInstances ( src\Data\NumInstances.hs, dist\dist-sandbox-6d64ec1\build\Data\NumInstances.o )
+[5 of 5] Compiling Data.NumInstances.Util ( src\Data\NumInstances\Util.hs, dist\dist-sandbox-6d64ec1\build\Data\NumInstances\Util.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\NumInstances-1.4'

@@ -1,0 +1,15 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\primitive-0.7.0.0-FBbjulU1VNABqQupYpKNQ1
+l.Monad.Primitive ( Control\Monad\Primitive.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Primitive.o )
+[ 2 of 13] Compiling Data.Primitive.Internal.Compat ( Data\Primitive\Internal\Compat.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\Internal\Compat.o )
+[ 3 of 13] Compiling Data.Primitive.Array ( Data\Primitive\Array.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\Array.o )
+[ 4 of 13] Compiling Data.Primitive.MVar ( Data\Primitive\MVar.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\MVar.o )
+[ 5 of 13] Compiling Data.Primitive.MachDeps ( Data\Primitive\MachDeps.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\MachDeps.o )
+[ 6 of 13] Compiling Data.Primitive.Internal.Operations ( Data\Primitive\Internal\Operations.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\Internal\Operations.o )
+[ 7 of 13] Compiling Data.Primitive.MutVar ( Data\Primitive\MutVar.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\MutVar.o )
+[ 8 of 13] Compiling Data.Primitive.SmallArray ( Data\Primitive\SmallArray.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\SmallArray.o )
+[ 9 of 13] Compiling Data.Primitive.Types ( Data\Primitive\Types.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\Types.o )
+[10 of 13] Compiling Data.Primitive.ByteArray ( Data\Primitive\ByteArray.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\ByteArray.o )
+[11 of 13] Compiling Data.Primitive.PrimArray ( Data\Primitive\PrimArray.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\PrimArray.o )
+[12 of 13] Compiling Data.Primitive.Ptr ( Data\Primitive\Ptr.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive\Ptr.o )
+[13 of 13] Compiling Data.Primitive   ( Data\Primitive.hs, dist\dist-sandbox-6d64ec1\build\Data\Primitive.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8635\primitive-0.7.0.0'

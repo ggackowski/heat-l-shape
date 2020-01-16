@@ -1,0 +1,6 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\invariant-0.5.3-ESIXzdJLfcr7DqbpMfbTNx
+or.Invariant ( src\Data\Functor\Invariant.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Invariant.o )
+[2 of 4] Compiling Data.Functor.Invariant.TH.Internal ( src\Data\Functor\Invariant\TH\Internal.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Invariant\TH\Internal.o )
+[3 of 4] Compiling Data.Functor.Invariant.TH ( src\Data\Functor\Invariant\TH.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Invariant\TH.o )
+[4 of 4] Compiling Paths_invariant  ( dist\dist-sandbox-6d64ec1\build\autogen\Paths_invariant.hs, dist\dist-sandbox-6d64ec1\build\Paths_invariant.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\invariant-0.5.3'

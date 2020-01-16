@@ -1,0 +1,3 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\type-equality-1-5A9N6Ts8RtY5wkf4DqaBDT
+Equality.Hetero ( src-hetero\Data\Type\Equality\Hetero.hs, dist\dist-sandbox-6d64ec1\build\Data\Type\Equality\Hetero.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8635\type-equality-1'

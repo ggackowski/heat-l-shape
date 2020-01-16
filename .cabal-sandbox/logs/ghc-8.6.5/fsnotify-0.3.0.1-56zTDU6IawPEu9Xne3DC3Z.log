@@ -1,0 +1,149 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\fsnotify-0.3.0.1-56zTDU6IawPEu9Xne3DC3Z
+Notify.Path ( src\System\FSNotify\Path.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify\Path.o )
+[2 of 9] Compiling System.FSNotify.Types ( src\System\FSNotify\Types.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify\Types.o )
+[3 of 9] Compiling System.FSNotify.Listener ( src\System\FSNotify\Listener.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify\Listener.o )
+[4 of 9] Compiling System.FSNotify.Polling ( src\System\FSNotify\Polling.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify\Polling.o )
+
+src\System\FSNotify\Polling.hs:64:17: warning: [-Wname-shadowing]
+    This binding for `path' shadows the existing binding
+      bound at src\System\FSNotify\Polling.hs:58:22
+   |
+64 |     pathAndInfo path = handle (\(_ :: IOException) -> return Nothing) $ do
+   |                 ^^^^
+[5 of 9] Compiling System.Win32.FileNotify ( dist\dist-sandbox-6d64ec1\build\System\Win32\FileNotify.hs, dist\dist-sandbox-6d64ec1\build\System\Win32\FileNotify.o )
+
+win-src\System\Win32\FileNotify.hsc:19:1: warning: [-Wunused-imports]
+    The import of `Data.Bits' is redundant
+      except perhaps to import instances from `Data.Bits'
+    To import instances alone, use: import Data.Bits()
+   |
+19 | import Data.Bits
+   | ^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:75:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_ACTION_ADDED'
+   |
+75 |  , fILE_ACTION_ADDED            = FILE_ACTION_ADDED
+   | ^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:77:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_ACTION_REMOVED'
+   |
+77 |  , fILE_ACTION_MODIFIED         = FILE_ACTION_MODIFIED
+   | ^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:79:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_ACTION_MODIFIED'
+   |
+79 |  , fILE_ACTION_RENAMED_NEW_NAME = FILE_ACTION_RENAMED_NEW_NAME
+   | ^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:81:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_ACTION_RENAMED_OLD_NAME'
+   |
+81 | 
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:82:1: warning: [-Wunused-top-binds]
+    Defined but not used: type constructor or class `WCHAR'
+   |
+82 | type WCHAR = Word16
+   | ^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:83:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_ACTION_RENAMED_NEW_NAME'
+   |
+83 | -- This is a bit overkill for now, I'll only use nullFunPtr anyway,
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:127:1: warning: [-Wunsupported-calling-conventions]
+    * the 'stdcall' calling convention is unsupported on this platform,
+      treating as ccall
+    * When checking declaration:
+        foreign import stdcall interruptible "windows.h ReadDirectoryChangesW" c_ReadDirectoryChangesW
+          :: Handle
+             -> LPVOID
+                -> DWORD
+                   -> BOOL
+                      -> DWORD
+                         -> LPDWORD
+                            -> LPOVERLAPPED -> LPOVERLAPPED_COMPLETION_ROUTINE -> IO BOOL
+    |
+127 | foreign import stdcall interruptible "windows.h ReadDirectoryChangesW"
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
+
+win-src\System\Win32\FileNotify.hsc:152:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_NOTIFY_CHANGE_FILE_NAME'
+    |
+152 |  , fILE_NOTIFY_CHANGE_FILE_NAME = FILE_NOTIFY_CHANGE_FILE_NAME
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:154:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_NOTIFY_CHANGE_DIR_NAME'
+    |
+154 |  , fILE_NOTIFY_CHANGE_ATTRIBUTES = FILE_NOTIFY_CHANGE_ATTRIBUTES
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:156:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_NOTIFY_CHANGE_ATTRIBUTES'
+    |
+156 |  , fILE_NOTIFY_CHANGE_LAST_WRITE = FILE_NOTIFY_CHANGE_LAST_WRITE
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:158:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_NOTIFY_CHANGE_SIZE'
+    |
+158 |  , fILE_NOTIFY_CHANGE_CREATION = FILE_NOTIFY_CHANGE_CREATION
+    | ^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:160:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_NOTIFY_CHANGE_LAST_WRITE'
+    |
+160 |  }
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\FileNotify.hsc:162:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_NOTIFY_CHANGE_LAST_ACCESS'
+
+win-src\System\Win32\FileNotify.hsc:164:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_NOTIFY_CHANGE_CREATION'
+
+win-src\System\Win32\FileNotify.hsc:166:1: warning: [-Wunused-top-binds]
+    Defined but not used: `fILE_NOTIFY_CHANGE_SECURITY'
+[6 of 9] Compiling System.Win32.Notify ( win-src\System\Win32\Notify.hs, dist\dist-sandbox-6d64ec1\build\System\Win32\Notify.o )
+
+win-src\System\Win32\Notify.hs:24:1: warning: [-Wunused-imports]
+    The import of `Control.Concurrent.MVar' is redundant
+      except perhaps to import instances from `Control.Concurrent.MVar'
+    To import instances alone, use: import Control.Concurrent.MVar()
+   |
+24 | import Control.Concurrent.MVar
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\Notify.hs:26:1: warning: [-Wunused-imports]
+    The import of `Data.Bits' is redundant
+      except perhaps to import instances from `Data.Bits'
+    To import instances alone, use: import Data.Bits()
+   |
+26 | import Data.Bits
+   | ^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\Notify.hs:27:1: warning: [-Wunused-imports]
+    The import of `Data.List' is redundant
+      except perhaps to import instances from `Data.List'
+    To import instances alone, use: import Data.List()
+   |
+27 | import Data.List (intersect)
+   | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+win-src\System\Win32\Notify.hs:30:1: warning: [-Wunused-imports]
+    The import of `System.Directory' is redundant
+      except perhaps to import instances from `System.Directory'
+    To import instances alone, use: import System.Directory()
+   |
+30 | import System.Directory
+   | ^^^^^^^^^^^^^^^^^^^^^^^
+[7 of 9] Compiling System.FSNotify.Win32 ( src\System\FSNotify\Win32.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify\Win32.o )
+[8 of 9] Compiling System.FSNotify  ( src\System\FSNotify.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify.o )
+[9 of 9] Compiling System.FSNotify.Devel ( src\System\FSNotify\Devel.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify\Devel.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8635\fsnotify-0.3.0.1'

@@ -1,0 +1,18 @@
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\unix-compat-0.5.2-DaVVRIKRohI3oq67QGsZ9
+PosixCompat.Internal.Time ( src\System\PosixCompat\Internal\Time.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Internal\Time.o )
+[2 of 9] Compiling System.PosixCompat.Temp ( src\System\PosixCompat\Temp.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Temp.o )
+[3 of 9] Compiling System.PosixCompat.Time ( src\System\PosixCompat\Time.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Time.o )
+[4 of 9] Compiling System.PosixCompat.Types ( src\System\PosixCompat\Types.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Types.o )
+[5 of 9] Compiling System.PosixCompat.Files ( dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Files.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Files.o )
+
+src\System\PosixCompat\Files.hsc:132:1: warning: [-Wunused-imports]
+    The import of `renameFile'
+    from module `System.Directory' is redundant
+    |
+132 | import System.Directory (getModificationTime, renameFile)
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[6 of 9] Compiling System.PosixCompat.Extensions ( dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Extensions.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Extensions.o )
+[7 of 9] Compiling System.PosixCompat.Unistd ( src\System\PosixCompat\Unistd.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat\Unistd.o )
+[8 of 9] Compiling System.PosixCompat.User ( dist\dist-sandbox-6d64ec1\build\System\PosixCompat\User.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat\User.o )
+[9 of 9] Compiling System.PosixCompat ( src\System\PosixCompat.hs, dist\dist-sandbox-6d64ec1\build\System\PosixCompat.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\unix-compat-0.5.2'
