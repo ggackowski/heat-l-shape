@@ -29,4 +29,4 @@ Picture.InternalHelper ( src\Codec\Picture\InternalHelper.hs, dist\dist-sandbox-
 [28 of 30] Compiling Codec.Picture.Gif ( src\Codec\Picture\Gif.hs, dist\dist-sandbox-6d64ec1\build\Codec\Picture\Gif.o )
 [29 of 30] Compiling Codec.Picture.Saving ( src\Codec\Picture\Saving.hs, dist\dist-sandbox-6d64ec1\build\Codec\Picture\Saving.o )
 [30 of 30] Compiling Codec.Picture    ( src\Codec\Picture.hs, dist\dist-sandbox-6d64ec1\build\Codec\Picture.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8635\JuicyPixels-3.3.4'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9401\JuicyPixels-3.3.4'

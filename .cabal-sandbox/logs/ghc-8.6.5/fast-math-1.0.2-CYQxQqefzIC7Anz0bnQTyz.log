@@ -287,4 +287,4 @@ Numeric\FastMath.hs:12:7: warning: [-Wdodgy-exports]
    |
 12 |     , module Numeric.FastMath.SignedZeros
    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\fast-math-1.0.2'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9403\fast-math-1.0.2'

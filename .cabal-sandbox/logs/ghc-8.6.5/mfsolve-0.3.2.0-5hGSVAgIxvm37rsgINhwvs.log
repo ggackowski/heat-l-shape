@@ -29,4 +29,4 @@ Math\MFSolve.hs:210:1: warning: [-Wmissing-signatures]
     |
 210 | pattern LConst c = LinExpr c []
     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\mfsolve-0.3.2.0'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9402\mfsolve-0.3.2.0'

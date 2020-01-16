@@ -13,4 +13,4 @@ src\Numeric\Interval\NonEmpty\Internal.hs:61:1: warning: [-Wunused-imports]
 61 | import Numeric.Interval.Exception
    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 [6 of 6] Compiling Numeric.Interval.NonEmpty ( src\Numeric\Interval\NonEmpty.hs, dist\dist-sandbox-6d64ec1\build\Numeric\Interval\NonEmpty.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\intervals-0.9'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9403\intervals-0.9'

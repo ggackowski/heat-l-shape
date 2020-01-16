@@ -28,4 +28,4 @@ iagrams.Anchors ( src\Diagrams\Anchors.hs, dist\dist-sandbox-6d64ec1\build\Diagr
 [27 of 29] Compiling Diagrams.TwoD.Path.LSystem ( src\Diagrams\TwoD\Path\LSystem.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\TwoD\Path\LSystem.o )
 [28 of 29] Compiling Diagrams.TwoD.Sunburst ( src\Diagrams\TwoD\Sunburst.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\TwoD\Sunburst.o )
 [29 of 29] Compiling Diagrams.TwoD.Tilings ( src\Diagrams\TwoD\Tilings.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\TwoD\Tilings.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\diagrams-contrib-1.4.4'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9401\diagrams-contrib-1.4.4'

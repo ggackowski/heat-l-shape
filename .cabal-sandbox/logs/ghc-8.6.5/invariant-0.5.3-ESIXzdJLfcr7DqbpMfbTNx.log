@@ -3,4 +3,4 @@ or.Invariant ( src\Data\Functor\Invariant.hs, dist\dist-sandbox-6d64ec1\build\Da
 [2 of 4] Compiling Data.Functor.Invariant.TH.Internal ( src\Data\Functor\Invariant\TH\Internal.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Invariant\TH\Internal.o )
 [3 of 4] Compiling Data.Functor.Invariant.TH ( src\Data\Functor\Invariant\TH.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Invariant\TH.o )
 [4 of 4] Compiling Paths_invariant  ( dist\dist-sandbox-6d64ec1\build\autogen\Paths_invariant.hs, dist\dist-sandbox-6d64ec1\build\Paths_invariant.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\invariant-0.5.3'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9403\invariant-0.5.3'

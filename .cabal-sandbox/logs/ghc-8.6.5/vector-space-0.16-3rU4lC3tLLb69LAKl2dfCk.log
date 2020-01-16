@@ -8,4 +8,4 @@ torSpace.Generic ( src\Data\VectorSpace\Generic.hs, dist\dist-sandbox-6d64ec1\bu
 [7 of 9] Compiling Data.Maclaurin   ( src\Data\Maclaurin.hs, dist\dist-sandbox-6d64ec1\build\Data\Maclaurin.o )
 [8 of 9] Compiling Data.Derivative  ( src\Data\Derivative.hs, dist\dist-sandbox-6d64ec1\build\Data\Derivative.o )
 [9 of 9] Compiling Data.Cross       ( src\Data\Cross.hs, dist\dist-sandbox-6d64ec1\build\Data\Cross.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\vector-space-0.16'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9403\vector-space-0.16'

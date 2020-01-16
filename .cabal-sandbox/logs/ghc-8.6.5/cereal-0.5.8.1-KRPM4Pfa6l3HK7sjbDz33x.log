@@ -10,4 +10,4 @@ src\Data\Serialize.hs:291:9: warning: [-Wincomplete-patterns]
     |
 291 |         findNr lo hi
     |         ^^^^^^^^^^^^...
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8635\cereal-0.5.8.1'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9402\cereal-0.5.8.1'

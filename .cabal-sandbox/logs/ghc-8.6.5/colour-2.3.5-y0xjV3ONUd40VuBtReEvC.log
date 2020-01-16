@@ -13,4 +13,4 @@ r.CIE.Chromaticity ( Data\Colour\CIE\Chromaticity.hs, dist\dist-sandbox-6d64ec1\
 [12 of 14] Compiling Data.Colour      ( Data\Colour.hs, dist\dist-sandbox-6d64ec1\build\Data\Colour.o )
 [13 of 14] Compiling Data.Colour.Names ( Data\Colour\Names.hs, dist\dist-sandbox-6d64ec1\build\Data\Colour\Names.o )
 [14 of 14] Compiling Data.Colour.CIE  ( Data\Colour\CIE.hs, dist\dist-sandbox-6d64ec1\build\Data\Colour\CIE.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8634\colour-2.3.5'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9401\colour-2.3.5'

@@ -12,4 +12,4 @@ Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\monoid
 [11 of 13] Compiling Data.Monoid.Split ( src\Data\Monoid\Split.hs, dist\dist-sandbox-6d64ec1\build\Data\Monoid\Split.o )
 [12 of 13] Compiling Data.Monoid.WithSemigroup ( src\Data\Monoid\WithSemigroup.hs, dist\dist-sandbox-6d64ec1\build\Data\Monoid\WithSemigroup.o )
 [13 of 13] Compiling Data.Monoid.Coproduct.Strict ( src\Data\Monoid\Coproduct\Strict.hs, dist\dist-sandbox-6d64ec1\build\Data\Monoid\Coproduct\Strict.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\monoid-extras-0.5.1'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9402\monoid-extras-0.5.1'

@@ -189,4 +189,4 @@ src\Data\Matrix\Unboxed.hs:362:11: warning: [-Wsimplifiable-class-constraints]
     |
 362 | unzip6 :: ( Context a, Context b, Context c, Context d, Context e, Context f
     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8634\matrices-0.5.0'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9400\matrices-0.5.0'

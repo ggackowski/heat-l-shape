@@ -146,4 +146,4 @@ win-src\System\Win32\Notify.hs:30:1: warning: [-Wunused-imports]
 [7 of 9] Compiling System.FSNotify.Win32 ( src\System\FSNotify\Win32.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify\Win32.o )
 [8 of 9] Compiling System.FSNotify  ( src\System\FSNotify.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify.o )
 [9 of 9] Compiling System.FSNotify.Devel ( src\System\FSNotify\Devel.hs, dist\dist-sandbox-6d64ec1\build\System\FSNotify\Devel.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8635\fsnotify-0.3.0.1'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9400\fsnotify-0.3.0.1'

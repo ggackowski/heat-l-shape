@@ -21,4 +21,4 @@ ary    ( src\Linear\Binary.hs, dist\dist-sandbox-6d64ec1\build\Linear\Binary.o )
 [20 of 22] Compiling Linear.Covector  ( src\Linear\Covector.hs, dist\dist-sandbox-6d64ec1\build\Linear\Covector.o )
 [21 of 22] Compiling Linear.Affine    ( src\Linear\Affine.hs, dist\dist-sandbox-6d64ec1\build\Linear\Affine.o )
 [22 of 22] Compiling Linear           ( src\Linear.hs, dist\dist-sandbox-6d64ec1\build\Linear.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\linear-1.20.9'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9400\linear-1.20.9'

@@ -72,4 +72,4 @@ ams.Attributes ( src\Diagrams\Attributes.hs, dist\dist-sandbox-6d64ec1\build\Dia
 [71 of 73] Compiling Diagrams.Backend.CmdLine ( src\Diagrams\Backend\CmdLine.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\Backend\CmdLine.o )
 [72 of 73] Compiling Diagrams         ( src\Diagrams.hs, dist\dist-sandbox-6d64ec1\build\Diagrams.o )
 [73 of 73] Compiling Diagrams.Prelude ( src\Diagrams\Prelude.hs, dist\dist-sandbox-6d64ec1\build\Diagrams\Prelude.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\diagrams-lib-1.4.3'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9400\diagrams-lib-1.4.3'

@@ -14,4 +14,4 @@ applicative ( src\Data\Biapplicative.hs, dist\dist-sandbox-6d64ec1\build\Data\Bi
 [13 of 15] Compiling Data.Bifunctor.Tannen ( src\Data\Bifunctor\Tannen.hs, dist\dist-sandbox-6d64ec1\build\Data\Bifunctor\Tannen.o )
 [14 of 15] Compiling Data.Bifunctor.Wrapped ( src\Data\Bifunctor\Wrapped.hs, dist\dist-sandbox-6d64ec1\build\Data\Bifunctor\Wrapped.o )
 [15 of 15] Compiling Paths_bifunctors ( dist\dist-sandbox-6d64ec1\build\autogen\Paths_bifunctors.hs, dist\dist-sandbox-6d64ec1\build\Paths_bifunctors.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8633\bifunctors-5.5.6'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9402\bifunctors-5.5.6'

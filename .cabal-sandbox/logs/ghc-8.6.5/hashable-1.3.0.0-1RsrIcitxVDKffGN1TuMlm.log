@@ -4,4 +4,4 @@ able.Class ( Data\Hashable\Class.hs, dist\dist-sandbox-6d64ec1\build\Data\Hashab
 [3 of 5] Compiling Data.Hashable.Generic ( Data\Hashable\Generic.hs, dist\dist-sandbox-6d64ec1\build\Data\Hashable\Generic.o )
 [4 of 5] Compiling Data.Hashable    ( Data\Hashable.hs, dist\dist-sandbox-6d64ec1\build\Data\Hashable.o )
 [5 of 5] Compiling Data.Hashable.Lifted ( Data\Hashable\Lifted.hs, dist\dist-sandbox-6d64ec1\build\Data\Hashable\Lifted.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\hashable-1.3.0.0'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9403\hashable-1.3.0.0'

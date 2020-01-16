@@ -20,4 +20,4 @@ a.Functor.Extend ( src\Data\Functor\Extend.hs, dist\dist-sandbox-6d64ec1\build\D
 [19 of 21] Compiling Data.Semigroup.Traversable.Class ( src\Data\Semigroup\Traversable\Class.hs, dist\dist-sandbox-6d64ec1\build\Data\Semigroup\Traversable\Class.o )
 [20 of 21] Compiling Data.Semigroup.Traversable ( src\Data\Semigroup\Traversable.hs, dist\dist-sandbox-6d64ec1\build\Data\Semigroup\Traversable.o )
 [21 of 21] Compiling Data.Semigroup.Bitraversable ( src\Data\Semigroup\Bitraversable.hs, dist\dist-sandbox-6d64ec1\build\Data\Semigroup\Bitraversable.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\semigroupoids-5.3.4'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9402\semigroupoids-5.3.4'

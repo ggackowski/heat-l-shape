@@ -40,4 +40,4 @@ src\Control\Comonad\Representable\Store.hs:46:1: warning: [-Wunused-imports]
    |
 46 | import Data.Semigroup
    | ^^^^^^^^^^^^^^^^^^^^^
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8632\adjunctions-4.4'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9402\adjunctions-4.4'

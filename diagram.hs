@@ -8,9 +8,129 @@ import Diagrams.Backend.SVG.CmdLine
 import Data.Colour (withOpacity)
 
 
+
+
+
+f1 x y = (1 - x) * (1 - y)
+f2 x y = (1 - y) * x 
+f3 x y = x * y
+f4 x y = (1 - x) * y 
+
+f1_dx x y = (- (1 - y))
+f1_dy x y = (-(1 - x))
+
+f2_dx x y = 1 - y
+f2_dy x y = (-x)
+
+f3_dx x y = y
+f3_dy x y = x
+
+f4_dx x y = (-y)
+f4_dy x y = 1 - x
+
+
+e1 x y 
+      | x >= -1 && x <= 0 && y >= 0 && y <= 1 = f4 (x + 1) y 
+      | otherwise = 0
+
+e2 x y
+      | x >= -1 && x <= 0 && y >= 0 && y <= 1 = f1 (x + 1) y 
+      | x >= -1 && x <= 0 && y >= -1 && y < 0 = f4 (x + 1) (y + 1)
+      | otherwise = 0
+
+e3 x y 
+      | x >= -1 && x <= 0 && y >= -1 && y <= 0 = f1 (x + 1) (y + 1)
+      | otherwise = 0
+
+e4 x y 
+      | x >= 0 && x <= 1 && y >= -1 && y <= 0 = f1 x (y + 1)
+      | x > -1 && x <= 0 && y >= -1 && y <= 0 = f2 x (y + 1)
+      | otherwise = 0
+
+e5 x y 
+      | x >= 0 && x <= 1 && y >= -1 && y <= 0 = f2 x (y + 1)
+      | otherwise = 0
+
+
+e1_dx x y 
+      | x >= -1 && x <= 0 && y >= 0 && y <= 1 = f4_dx (x + 1) y 
+      | otherwise = 0
+
+e2_dx x y
+    | x >= -1 && x <= 0 && y >= 0 && y <= 1 = f1_dx (x + 1) y 
+    | x >= -1 && x <= 0 && y >= -1 && y < 0 = f4_dx (x + 1) (y + 1)
+    | otherwise = 0
+
+e3_dx x y 
+    | x >= -1 && x <= 0 && y >= -1 && y <= 0 = f1_dx (x + 1) (y + 1)
+    | otherwise = 0
+
+e4_dx x y 
+    | x >= 0 && x <= 1 && y >= -1 && y <= 0 = f1_dx x (y + 1)
+    | x > -1 && x <= 0 && y >= -1 && y <= 0 = f2_dx x (y + 1)
+    | otherwise = 0
+
+e5_dx x y 
+    | x >= 0 && x <= 1 && y >= -1 && y <= 0 = f2_dx x (y + 1)
+    | otherwise = 0
+
+
+e1_dy x y 
+    | x >= -1 && x <= 0 && y >= 0 && y <= 1 = f4_dy (x + 1) y 
+    | otherwise = 0
+
+e2_dy x y
+    | x >= -1 && x <= 0 && y >= 0 && y <= 1 = f1_dy (x + 1) y 
+    | x >= -1 && x <= 0 && y >= -1 && y < 0 = f4_dy (x + 1) (y + 1)
+    | otherwise = 0
+
+e3_dy x y 
+    | x >= -1 && x <= 0 && y >= -1 && y <= 0 = f1_dy (x + 1) (y + 1)
+    | otherwise = 0
+
+e4_dy x y 
+    | x >= 0 && x <= 1 && y >= -1 && y <= 0 = f1_dy x (y + 1)
+    | x > -1 && x <= 0 && y >= -1 && y <= 0 = f2_dy x (y + 1)
+    | otherwise = 0
+
+e5_dy x y 
+    | x >= 0 && x <= 1 && y >= -1 && y <= 0 = f2_dy x (y + 1)
+    | otherwise = 0
+
+e x y = [ee1, ee2, ee3, ee4, ee5]
+  where 
+    ee1 = e1 x y
+    ee2 = e2 x y
+    ee3 = e3 x y
+    ee4 = e4 x y
+    ee5 = e5 x y
+
+e_dx x y = [ee1, ee2, ee3, ee4, ee5]
+  where 
+    ee1 = e1_dx x y
+    ee2 = e2_dx x y
+    ee3 = e3_dx x y
+    ee4 = e4_dx x y
+    ee5 = e5_dx x y
+
+e_dy x y = [ee1, ee2, ee3, ee4, ee5]
+  where 
+    ee1 = e1_dy x y
+    ee2 = e2_dy x y
+    ee3 = e3_dy x y
+    ee4 = e4_dy x y
+    ee5 = e5_dy x y
+
+func x y = 3 * (e x y !! 0) + 1 * (e x y !! 1) + 0.3 *  (e x y !! 2) + 0.2 *  (e x y !! 3) + 1.3 *  (e x y !! 4)
+
+
+
+
+
+
 --wyswietlana funkcja
-func :: Double -> Double -> Double
-func x y =  if x >= 0 && y >= 0 then -2 else sin (3*x) + cos (3*y)
+--func :: Double -> Double -> Double
+--func x y =  if x >= 0 && y >= 0 then -2 else sin (3*x) + cos (3*y)
 
 
 --kolorowanie
@@ -62,17 +182,6 @@ gridTmp = makeGrid 40 (-1, 1) (-1, 1) func
 
 main = mainWith $ gridTmp
 
---funkcje w 1 wymiarze
-
-fOneDim1 x = 1 - x
-fOneDim2 x = x
-
---funkcje w 2 wymiarach
-
-fTwoDim0 x y = fOneDim1 x * fOneDim1 y
-fTwoDim1 x y = fOneDim1 y * fOneDim2 x 
-fTwoDim2 x y = fOneDim2 x * fOneDim2 y
-fTwoDim3 x y = fOneDim1 x * fOneDim2 y 
 
 
   

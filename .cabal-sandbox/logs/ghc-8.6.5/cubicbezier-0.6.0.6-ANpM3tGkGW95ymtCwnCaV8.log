@@ -261,4 +261,4 @@ Geom2D\CubicBezier\Stroke.hs:8:1: warning: [-Wunused-imports]
   |
 8 | import Data.Monoid
   | ^^^^^^^^^^^^^^^^^^
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-8634\cubicbezier-0.6.0.6'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9400\cubicbezier-0.6.0.6'
