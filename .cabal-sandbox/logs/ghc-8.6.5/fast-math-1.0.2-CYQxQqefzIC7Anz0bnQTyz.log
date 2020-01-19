@@ -1,5 +1,5 @@
-Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\fast-math-1.0.2-CYQxQqefzIC7Anz0bnQTyz
-stMath.Approximation ( Numeric\FastMath\Approximation.hs, dist\dist-sandbox-6d64ec1\build\Numeric\FastMath\Approximation.o )
+Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\fast-math-1.0.2-CYQxQqefzIC7Anz0bnQTyz
+th.Approximation ( Numeric\FastMath\Approximation.hs, dist\dist-sandbox-f4714d63\build\Numeric\FastMath\Approximation.o )
 
 Numeric\FastMath\Approximation.hs:19:1: warning: [-Wunused-imports]
     The import of `Prelude' is redundant
@@ -266,9 +266,9 @@ Numeric\FastMath\Approximation.hs:210:1: warning: [-Winline-rule-shadowing]
     |
 210 | "double repmul 4" [1] forall x . timesFloat# x (timesFloat# x (timesFloat# x x))
     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
-[2 of 4] Compiling Numeric.FastMath.NaN ( Numeric\FastMath\NaN.hs, dist\dist-sandbox-6d64ec1\build\Numeric\FastMath\NaN.o )
-[3 of 4] Compiling Numeric.FastMath.SignedZeros ( Numeric\FastMath\SignedZeros.hs, dist\dist-sandbox-6d64ec1\build\Numeric\FastMath\SignedZeros.o )
-[4 of 4] Compiling Numeric.FastMath ( Numeric\FastMath.hs, dist\dist-sandbox-6d64ec1\build\Numeric\FastMath.o )
+[2 of 4] Compiling Numeric.FastMath.NaN ( Numeric\FastMath\NaN.hs, dist\dist-sandbox-f4714d63\build\Numeric\FastMath\NaN.o )
+[3 of 4] Compiling Numeric.FastMath.SignedZeros ( Numeric\FastMath\SignedZeros.hs, dist\dist-sandbox-f4714d63\build\Numeric\FastMath\SignedZeros.o )
+[4 of 4] Compiling Numeric.FastMath ( Numeric\FastMath.hs, dist\dist-sandbox-f4714d63\build\Numeric\FastMath.o )
 
 Numeric\FastMath.hs:10:7: warning: [-Wdodgy-exports]
     The export item `module Numeric.FastMath.Approximation' exports nothing
@@ -287,4 +287,4 @@ Numeric\FastMath.hs:12:7: warning: [-Wdodgy-exports]
    |
 12 |     , module Numeric.FastMath.SignedZeros
    |       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9403\fast-math-1.0.2'
+cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7028\fast-math-1.0.2'

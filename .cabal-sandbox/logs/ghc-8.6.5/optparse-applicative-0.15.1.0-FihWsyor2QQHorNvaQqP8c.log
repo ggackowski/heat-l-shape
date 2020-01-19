@@ -1,16 +1,16 @@
-Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\optparse-applicative-0.15.1.0-FihWsyor2QQHorNvaQqP8c
-iling Options.Applicative.Help.Levenshtein ( src\Options\Applicative\Help\Levenshtein.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Help\Levenshtein.o )
-[ 2 of 16] Compiling Options.Applicative.Help.Pretty ( src\Options\Applicative\Help\Pretty.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Help\Pretty.o )
-[ 3 of 16] Compiling Options.Applicative.Help.Chunk ( src\Options\Applicative\Help\Chunk.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Help\Chunk.o )
-[ 4 of 16] Compiling Options.Applicative.Help.Types ( src\Options\Applicative\Help\Types.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Help\Types.o )
-[ 5 of 16] Compiling Options.Applicative.Types ( src\Options\Applicative\Types.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Types.o )
-[ 6 of 16] Compiling Options.Applicative.Internal ( src\Options\Applicative\Internal.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Internal.o )
-[ 7 of 16] Compiling Options.Applicative.Common ( src\Options\Applicative\Common.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Common.o )
-[ 8 of 16] Compiling Options.Applicative.Help.Core ( src\Options\Applicative\Help\Core.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Help\Core.o )
-[ 9 of 16] Compiling Options.Applicative.Help ( src\Options\Applicative\Help.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Help.o )
-[10 of 16] Compiling Options.Applicative.Builder.Internal ( src\Options\Applicative\Builder\Internal.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Builder\Internal.o )
-[11 of 16] Compiling Options.Applicative.Builder.Completer ( src\Options\Applicative\Builder\Completer.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Builder\Completer.o )
-[12 of 16] Compiling Options.Applicative.Builder ( src\Options\Applicative\Builder.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Builder.o )
+Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\optparse-applicative-0.15.1.0-FihWsyor2QQHorNvaQqP8c
+g Options.Applicative.Help.Levenshtein ( src\Options\Applicative\Help\Levenshtein.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Help\Levenshtein.o )
+[ 2 of 16] Compiling Options.Applicative.Help.Pretty ( src\Options\Applicative\Help\Pretty.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Help\Pretty.o )
+[ 3 of 16] Compiling Options.Applicative.Help.Chunk ( src\Options\Applicative\Help\Chunk.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Help\Chunk.o )
+[ 4 of 16] Compiling Options.Applicative.Help.Types ( src\Options\Applicative\Help\Types.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Help\Types.o )
+[ 5 of 16] Compiling Options.Applicative.Types ( src\Options\Applicative\Types.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Types.o )
+[ 6 of 16] Compiling Options.Applicative.Internal ( src\Options\Applicative\Internal.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Internal.o )
+[ 7 of 16] Compiling Options.Applicative.Common ( src\Options\Applicative\Common.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Common.o )
+[ 8 of 16] Compiling Options.Applicative.Help.Core ( src\Options\Applicative\Help\Core.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Help\Core.o )
+[ 9 of 16] Compiling Options.Applicative.Help ( src\Options\Applicative\Help.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Help.o )
+[10 of 16] Compiling Options.Applicative.Builder.Internal ( src\Options\Applicative\Builder\Internal.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Builder\Internal.o )
+[11 of 16] Compiling Options.Applicative.Builder.Completer ( src\Options\Applicative\Builder\Completer.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Builder\Completer.o )
+[12 of 16] Compiling Options.Applicative.Builder ( src\Options\Applicative\Builder.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Builder.o )
 
 src\Options\Applicative\Builder.hs:107:1: warning: [-Wunused-imports]
     The import of `Data.Semigroup' is redundant
@@ -19,8 +19,8 @@ src\Options\Applicative\Builder.hs:107:1: warning: [-Wunused-imports]
     |
 107 | import Data.Semigroup hiding (option)
     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[13 of 16] Compiling Options.Applicative.BashCompletion ( src\Options\Applicative\BashCompletion.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\BashCompletion.o )
-[14 of 16] Compiling Options.Applicative.Extra ( src\Options\Applicative\Extra.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Extra.o )
-[15 of 16] Compiling Options.Applicative ( src\Options\Applicative.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative.o )
-[16 of 16] Compiling Options.Applicative.Arrows ( src\Options\Applicative\Arrows.hs, dist\dist-sandbox-6d64ec1\build\Options\Applicative\Arrows.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9400\optparse-applicative-0.15.1.0'
+[13 of 16] Compiling Options.Applicative.BashCompletion ( src\Options\Applicative\BashCompletion.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\BashCompletion.o )
+[14 of 16] Compiling Options.Applicative.Extra ( src\Options\Applicative\Extra.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Extra.o )
+[15 of 16] Compiling Options.Applicative ( src\Options\Applicative.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative.o )
+[16 of 16] Compiling Options.Applicative.Arrows ( src\Options\Applicative\Arrows.hs, dist\dist-sandbox-f4714d63\build\Options\Applicative\Arrows.o )
+cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7030\optparse-applicative-0.15.1.0'

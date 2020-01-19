@@ -1,9 +1,9 @@
-Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\intervals-0.9-9RA75k4qc3kFeF8PmBe8Pd
-rval.Exception ( src\Numeric\Interval\Exception.hs, dist\dist-sandbox-6d64ec1\build\Numeric\Interval\Exception.o )
-[2 of 6] Compiling Numeric.Interval.Internal ( src\Numeric\Interval\Internal.hs, dist\dist-sandbox-6d64ec1\build\Numeric\Interval\Internal.o )
-[3 of 6] Compiling Numeric.Interval ( src\Numeric\Interval.hs, dist\dist-sandbox-6d64ec1\build\Numeric\Interval.o )
-[4 of 6] Compiling Numeric.Interval.Kaucher ( src\Numeric\Interval\Kaucher.hs, dist\dist-sandbox-6d64ec1\build\Numeric\Interval\Kaucher.o )
-[5 of 6] Compiling Numeric.Interval.NonEmpty.Internal ( src\Numeric\Interval\NonEmpty\Internal.hs, dist\dist-sandbox-6d64ec1\build\Numeric\Interval\NonEmpty\Internal.o )
+Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\intervals-0.9-9RA75k4qc3kFeF8PmBe8Pd
+.Exception ( src\Numeric\Interval\Exception.hs, dist\dist-sandbox-f4714d63\build\Numeric\Interval\Exception.o )
+[2 of 6] Compiling Numeric.Interval.Internal ( src\Numeric\Interval\Internal.hs, dist\dist-sandbox-f4714d63\build\Numeric\Interval\Internal.o )
+[3 of 6] Compiling Numeric.Interval ( src\Numeric\Interval.hs, dist\dist-sandbox-f4714d63\build\Numeric\Interval.o )
+[4 of 6] Compiling Numeric.Interval.Kaucher ( src\Numeric\Interval\Kaucher.hs, dist\dist-sandbox-f4714d63\build\Numeric\Interval\Kaucher.o )
+[5 of 6] Compiling Numeric.Interval.NonEmpty.Internal ( src\Numeric\Interval\NonEmpty\Internal.hs, dist\dist-sandbox-f4714d63\build\Numeric\Interval\NonEmpty\Internal.o )
 
 src\Numeric\Interval\NonEmpty\Internal.hs:61:1: warning: [-Wunused-imports]
     The import of `Numeric.Interval.Exception' is redundant
@@ -12,5 +12,5 @@ src\Numeric\Interval\NonEmpty\Internal.hs:61:1: warning: [-Wunused-imports]
    |
 61 | import Numeric.Interval.Exception
    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[6 of 6] Compiling Numeric.Interval.NonEmpty ( src\Numeric\Interval\NonEmpty.hs, dist\dist-sandbox-6d64ec1\build\Numeric\Interval\NonEmpty.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9403\intervals-0.9'
+[6 of 6] Compiling Numeric.Interval.NonEmpty ( src\Numeric\Interval\NonEmpty.hs, dist\dist-sandbox-f4714d63\build\Numeric\Interval\NonEmpty.o )
+cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7028\intervals-0.9'

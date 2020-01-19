@@ -1,4 +1,4 @@
-Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\newtype-generics-0.5.4-JDylodo8xyNKlRePSTgHcW
-trol.Newtype.Generics ( Control\Newtype\Generics.hs, dist\dist-sandbox-6d64ec1\build\Control\Newtype\Generics.o )
-[2 of 2] Compiling Control.Newtype  ( Control\Newtype.hs, dist\dist-sandbox-6d64ec1\build\Control\Newtype.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9403\newtype-generics-0.5.4'
+Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\newtype-generics-0.5.4-JDylodo8xyNKlRePSTgHcW
+.Newtype.Generics ( Control\Newtype\Generics.hs, dist\dist-sandbox-f4714d63\build\Control\Newtype\Generics.o )
+[2 of 2] Compiling Control.Newtype  ( Control\Newtype.hs, dist\dist-sandbox-f4714d63\build\Control\Newtype.o )
+cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7028\newtype-generics-0.5.4'

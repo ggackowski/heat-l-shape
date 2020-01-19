@@ -1,6 +1,6 @@
-Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\integer-logarithms-1.0.3-4fjS4bKV0939VXcQKK2I7B
-HC.Integer.Logarithms.Compat ( src\GHC\Integer\Logarithms\Compat.hs, dist\dist-sandbox-6d64ec1\build\GHC\Integer\Logarithms\Compat.o )
-[2 of 4] Compiling Math.NumberTheory.Logarithms ( src\Math\NumberTheory\Logarithms.hs, dist\dist-sandbox-6d64ec1\build\Math\NumberTheory\Logarithms.o )
-[3 of 4] Compiling Math.NumberTheory.Powers.Integer ( src\Math\NumberTheory\Powers\Integer.hs, dist\dist-sandbox-6d64ec1\build\Math\NumberTheory\Powers\Integer.o )
-[4 of 4] Compiling Math.NumberTheory.Powers.Natural ( src\Math\NumberTheory\Powers\Natural.hs, dist\dist-sandbox-6d64ec1\build\Math\NumberTheory\Powers\Natural.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9400\integer-logarithms-1.0.3'
+Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\integer-logarithms-1.0.3-4fjS4bKV0939VXcQKK2I7B
+nteger.Logarithms.Compat ( src\GHC\Integer\Logarithms\Compat.hs, dist\dist-sandbox-f4714d63\build\GHC\Integer\Logarithms\Compat.o )
+[2 of 4] Compiling Math.NumberTheory.Logarithms ( src\Math\NumberTheory\Logarithms.hs, dist\dist-sandbox-f4714d63\build\Math\NumberTheory\Logarithms.o )
+[3 of 4] Compiling Math.NumberTheory.Powers.Integer ( src\Math\NumberTheory\Powers\Integer.hs, dist\dist-sandbox-f4714d63\build\Math\NumberTheory\Powers\Integer.o )
+[4 of 4] Compiling Math.NumberTheory.Powers.Natural ( src\Math\NumberTheory\Powers\Natural.hs, dist\dist-sandbox-f4714d63\build\Math\NumberTheory\Powers\Natural.o )
+cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7030\integer-logarithms-1.0.3'

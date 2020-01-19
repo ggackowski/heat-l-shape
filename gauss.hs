@@ -1,15 +1,15 @@
-import Control.DeepSeq
+module Gauss (
+  solve
+)
+where
 
 type Row = [Float]
 type Matrix = [Row]
 
-genRow z n = foldl (\y x -> 1 / (z + x) : y) [1 / (z+1)] [n,n-1..1]
-genMatr n = map (\x -> genRow x n) [1..n]
-
-gaussianReduce = reverse . gaussianReduce_
-gaussianReduce_ :: Matrix -> Matrix
-gaussianReduce_ matrix = fst $ foldl reduceRow ([] :: Matrix, matrix) [0..length matrix-1] where
-
+gaussianReduce :: Matrix -> Matrix
+gaussianReduce matrix = fixlastrow $ foldl reduceRow matrix [0..length matrix-1] where
+ 
+ --swaps element at position a with element at position b.
  swap xs a b
   | a > b = swap xs b a
   | a == b = xs
@@ -17,27 +17,41 @@ gaussianReduce_ matrix = fst $ foldl reduceRow ([] :: Matrix, matrix) [0..length
   (p1,p2) = splitAt a xs
   (p3,p4) = splitAt (b-a-1) (tail p2)
   in p1 ++ [xs!!b] ++ p3 ++ [xs!!a] ++ (tail p4)
-
- reduceRow (rst, matrix1) r = let
-  matrix2 = if (matrix1 !! 0 !! r == 0) then (swap matrix1 0 firstnonzero) else matrix1
-    where firstnonzero = head $ filter (\x -> matrix1 !! 0 !! r /= 0) [0..length matrix1-1]
+ 
+ reduceRow matrix1 r = let
+  --first non-zero element on or below (r,r).
+  firstnonzero = head $ filter (\x -> matrix1 !! x !! r /= 0) [r..length matrix1-1]
+ 
+  --matrix with row swapped (if needed)
+  matrix2 = swap matrix1 r firstnonzero
+ 
+  --row we're working with
+  row = matrix2 !! r
+ 
+  --make it have 1 as the leading coefficient
   row1 = map (\x -> x / (row !! r)) row
-    where row = matrix2 !! 0
+ 
+  --subtract nr from row1 while multiplying
+  subrow nr = let k = nr!!r in zipWith (\a b -> k*a - b) row1 nr
+ 
+  --apply subrow to all rows below
+  nextrows = map subrow $ drop (r+1) matrix2
+ 
+  --concat the lists and repeat
+  in take r matrix2 ++ [row1] ++ nextrows
+ 
+ fixlastrow matrix' = let
+  a = init matrix'; row = last matrix'; z = last row; nz = last (init row)
+  in a ++ [init (init row) ++ [1, z / nz]]
 
-  subrow nr = zipWith (\a b -> k*a - b) row1 nr
-    where k = nr !! r
-  nextrows = map subrow $ drop 1 matrix2
-  in (row1 : rst, force $ nextrows)
-
-substitute matrix = foldl next [] matrix where
- lengthmatrix = length matrix
- next found row = let
-  subpart = init $ drop (lengthmatrix - length found) row
+  --Solve a matrix (must already be in REF form) by back substitution.
+substitute :: Matrix -> Row
+substitute matrix = foldr next [last (last matrix)] (init matrix) where
+ 
+ next row found = let
+  subpart = init $ drop (length matrix - length found) row
   solution = last row - sum (zipWith (*) found subpart)
   in solution : found
 
-
-solve :: Matrix -> Row
-solve = substitute . gaussianReduce_
-
-main = print . solve $ [[2, -1, 3, 5], [2, 2, 3, 7], [-2, 3, 0, -3]]
+  solve :: Matrix -> Row
+solve = substitute . gaussianReduce

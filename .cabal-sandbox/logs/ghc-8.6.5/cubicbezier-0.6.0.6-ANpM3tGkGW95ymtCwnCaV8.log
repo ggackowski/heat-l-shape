@@ -1,5 +1,5 @@
-Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\cubicbezier-0.6.0.6-ANpM3tGkGW95ymtCwnCaV8
-2D           ( Geom2D.hs, dist\dist-sandbox-6d64ec1\build\Geom2D.o )
+Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\cubicbezier-0.6.0.6-ANpM3tGkGW95ymtCwnCaV8
+         ( Geom2D.hs, dist\dist-sandbox-f4714d63\build\Geom2D.o )
 
 Geom2D.hs:14:1: warning: [-Wunused-imports]
     The import of `Numeric.FastMath' is redundant
@@ -8,7 +8,7 @@ Geom2D.hs:14:1: warning: [-Wunused-imports]
    |
 14 | import Numeric.FastMath
    | ^^^^^^^^^^^^^^^^^^^^^^^
-[ 2 of 12] Compiling Geom2D.CubicBezier.Numeric ( Geom2D\CubicBezier\Numeric.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\Numeric.o )
+[ 2 of 12] Compiling Geom2D.CubicBezier.Numeric ( Geom2D\CubicBezier\Numeric.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\Numeric.o )
 
 Geom2D\CubicBezier\Numeric.hs:334:34: warning: [-Wname-shadowing]
     This binding for `rows' shadows the existing binding
@@ -23,8 +23,8 @@ Geom2D\CubicBezier\Numeric.hs:346:17: warning: [-Wname-shadowing]
     |
 346 | solveCyclicTriD rows = solutions
     |                 ^^^^
-[ 3 of 12] Compiling Math.BernsteinPoly ( Math\BernsteinPoly.hs, dist\dist-sandbox-6d64ec1\build\Math\BernsteinPoly.o )
-[ 4 of 12] Compiling Geom2D.CubicBezier.Basic ( Geom2D\CubicBezier\Basic.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\Basic.o )
+[ 3 of 12] Compiling Math.BernsteinPoly ( Math\BernsteinPoly.hs, dist\dist-sandbox-f4714d63\build\Math\BernsteinPoly.o )
+[ 4 of 12] Compiling Geom2D.CubicBezier.Basic ( Geom2D\CubicBezier\Basic.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\Basic.o )
 
 Geom2D\CubicBezier\Basic.hs:22:1: warning: [-Wunused-imports]
     The import of `Data.List' is redundant
@@ -63,15 +63,15 @@ Geom2D\CubicBezier\Basic.hs:184:27: warning: [-Wunused-matches]
     |
 184 | closeOpenPath (OpenPath j p) = ClosedPath j
     |                           ^
-[ 5 of 12] Compiling Geom2D.CubicBezier.MetaPath ( Geom2D\CubicBezier\MetaPath.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\MetaPath.o )
-[ 6 of 12] Compiling Geom2D.CubicBezier.Intersection ( Geom2D\CubicBezier\Intersection.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\Intersection.o )
+[ 5 of 12] Compiling Geom2D.CubicBezier.MetaPath ( Geom2D\CubicBezier\MetaPath.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\MetaPath.o )
+[ 6 of 12] Compiling Geom2D.CubicBezier.Intersection ( Geom2D\CubicBezier\Intersection.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\Intersection.o )
 
 Geom2D\CubicBezier\Intersection.hs:214:38: warning: [-Wunused-matches]
     Defined but not used: `eps'
     |
 214 | bezierLineIntersections b (Line p q) eps =
     |                                      ^^^
-[ 7 of 12] Compiling Geom2D.CubicBezier.Overlap ( Geom2D\CubicBezier\Overlap.lhs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\Overlap.o )
+[ 7 of 12] Compiling Geom2D.CubicBezier.Overlap ( Geom2D\CubicBezier\Overlap.lhs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\Overlap.o )
 
 Geom2D\CubicBezier\Overlap.lhs:45:3: warning: [-Wunused-imports]
     The import of `Geom2D.CubicBezier.Numeric' is redundant
@@ -248,11 +248,11 @@ Geom2D\CubicBezier\Overlap.lhs:1149:3: warning: [-Wmissing-signatures]
      |
 1149 | > union' p fill tol =
      |   ^^^^^^
-[ 8 of 12] Compiling Geom2D.CubicBezier.Curvature ( Geom2D\CubicBezier\Curvature.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\Curvature.o )
-[ 9 of 12] Compiling Geom2D.CubicBezier.Approximate ( Geom2D\CubicBezier\Approximate.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\Approximate.o )
-[10 of 12] Compiling Geom2D.CubicBezier.Outline ( Geom2D\CubicBezier\Outline.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\Outline.o )
-[11 of 12] Compiling Geom2D.CubicBezier ( Geom2D\CubicBezier.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier.o )
-[12 of 12] Compiling Geom2D.CubicBezier.Stroke ( Geom2D\CubicBezier\Stroke.hs, dist\dist-sandbox-6d64ec1\build\Geom2D\CubicBezier\Stroke.o )
+[ 8 of 12] Compiling Geom2D.CubicBezier.Curvature ( Geom2D\CubicBezier\Curvature.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\Curvature.o )
+[ 9 of 12] Compiling Geom2D.CubicBezier.Approximate ( Geom2D\CubicBezier\Approximate.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\Approximate.o )
+[10 of 12] Compiling Geom2D.CubicBezier.Outline ( Geom2D\CubicBezier\Outline.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\Outline.o )
+[11 of 12] Compiling Geom2D.CubicBezier ( Geom2D\CubicBezier.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier.o )
+[12 of 12] Compiling Geom2D.CubicBezier.Stroke ( Geom2D\CubicBezier\Stroke.hs, dist\dist-sandbox-f4714d63\build\Geom2D\CubicBezier\Stroke.o )
 
 Geom2D\CubicBezier\Stroke.hs:8:1: warning: [-Wunused-imports]
     The import of `Data.Monoid' is redundant
@@ -261,4 +261,4 @@ Geom2D\CubicBezier\Stroke.hs:8:1: warning: [-Wunused-imports]
   |
 8 | import Data.Monoid
   | ^^^^^^^^^^^^^^^^^^
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-9400\cubicbezier-0.6.0.6'
+cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7029\cubicbezier-0.6.0.6'
