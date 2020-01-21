@@ -1,4 +1,3 @@
-
 module Diagram (
     visualize
 )
@@ -8,16 +7,9 @@ where
 {-# LANGUAGE FlexibleContexts          #-}
 {-# LANGUAGE TypeFamilies              #-}
  
-
 import Diagrams.Prelude
 import Diagrams.Backend.SVG.CmdLine
 import Data.Colour (withOpacity)
-
---func x y = 3 * (e x y !! 0) + 1 * (e x y !! 1) + 0.3 *  (e x y !! 2) + 0.2 *  (e x y !! 3) + 1.3 *  (e x y !! 4)
-
---wyswietlana funkcja
---func :: Double -> Double -> Double
---func x y =  if x >= 0 && y >= 0 then -2 else sin (3*x) + cos (3*y)
 
 --kolorowanie
 cell :: Double -> Diagram B 
@@ -48,9 +40,11 @@ gridStep domX domY gsize = ((snd domX) - (fst domX)) / (fromIntegral gsize)
 
 --wartosc funkcji w danej kratce
 functionAtT f n m domX domY gstep = f (min (fst domX) (snd domX) + n * gstep) ( max (fst domY) (snd domY) - m * gstep)
+
 --normalizacja do (0, 1)
 normalizest x minValue maxValue = (x - minValue) / (maxValue - minValue)
 
+--tworzenie siatki
 makeGrid gridS dX dY fun = hcat (map vcat cells)
  where 
   gst = gridStep dX dY gridS
@@ -62,12 +56,5 @@ makeGrid gridS dX dY fun = hcat (map vcat cells)
   normalizes x = normalizest x minValue maxValue
   cells = [ [cell $ normalizes $ functionAt fun' (fromIntegral j) (fromIntegral i) | i <- [1..gridS] ] | j <- [1..gridS] ]
 
---gridTmp = makeGrid 40 (-1, 1) (-1, 1) func 
-
---main = mainWith $ gridTmp
-
+--wizualizacja
 visualize size function = mainWith $ makeGrid size (-1, 1) (-1, 1) function
-
-
-
-  

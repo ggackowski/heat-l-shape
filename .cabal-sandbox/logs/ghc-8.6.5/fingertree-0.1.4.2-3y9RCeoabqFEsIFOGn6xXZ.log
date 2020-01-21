@@ -1,5 +1,5 @@
-Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\fingertree-0.1.4.2-3y9RCeoabqFEsIFOGn6xXZ
-Tree  ( Data\FingerTree.hs, dist\dist-sandbox-f4714d63\build\Data\FingerTree.o )
-[2 of 3] Compiling Data.IntervalMap.FingerTree ( Data\IntervalMap\FingerTree.hs, dist\dist-sandbox-f4714d63\build\Data\IntervalMap\FingerTree.o )
-[3 of 3] Compiling Data.PriorityQueue.FingerTree ( Data\PriorityQueue\FingerTree.hs, dist\dist-sandbox-f4714d63\build\Data\PriorityQueue\FingerTree.o )
-cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7029\fingertree-0.1.4.2'
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\fingertree-0.1.4.2-3y9RCeoabqFEsIFOGn6xXZ
+ngerTree  ( Data\FingerTree.hs, dist\dist-sandbox-6d64ec1\build\Data\FingerTree.o )
+[2 of 3] Compiling Data.IntervalMap.FingerTree ( Data\IntervalMap\FingerTree.hs, dist\dist-sandbox-6d64ec1\build\Data\IntervalMap\FingerTree.o )
+[3 of 3] Compiling Data.PriorityQueue.FingerTree ( Data\PriorityQueue\FingerTree.hs, dist\dist-sandbox-6d64ec1\build\Data\PriorityQueue\FingerTree.o )
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-695\fingertree-0.1.4.2'

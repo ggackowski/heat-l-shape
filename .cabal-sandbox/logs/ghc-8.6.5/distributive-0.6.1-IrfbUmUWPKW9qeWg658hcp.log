@@ -1,6 +1,6 @@
-Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\distributive-0.6.1-IrfbUmUWPKW9qeWg658hcp
-butive ( src\Data\Distributive.hs, dist\dist-sandbox-f4714d63\build\Data\Distributive.o )
-[2 of 2] Compiling Data.Distributive.Generic ( src\Data\Distributive\Generic.hs, dist\dist-sandbox-f4714d63\build\Data\Distributive\Generic.o )
-Linking C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7028\distributive-0.6.1\dist/dist-sandbox-f4714d63\setup\setup.exe ...
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\distributive-0.6.1-IrfbUmUWPKW9qeWg658hcp
+stributive ( src\Data\Distributive.hs, dist\dist-sandbox-6d64ec1\build\Data\Distributive.o )
+[2 of 2] Compiling Data.Distributive.Generic ( src\Data\Distributive\Generic.hs, dist\dist-sandbox-6d64ec1\build\Data\Distributive\Generic.o )
+g C:\Users\Greg\AppData\Local\Temp\cabal-tmp-695\distributive-0.6.1\dist/dist-sandbox-6d64ec1\setup\setup.exe ...
 Configuring distributive-0.6.1...
-cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7028\distributive-0.6.1'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-695\distributive-0.6.1'

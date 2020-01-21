@@ -1,17 +1,17 @@
-Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\matrices-0.5.0-4BgwHbiU22LHc2rc0fiwS1
-lass.Mutable ( src\Data\Matrix\Class\Mutable.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Class\Mutable.o )
-[ 2 of 13] Compiling Data.Matrix.Class ( src\Data\Matrix\Class.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Class.o )
-[ 3 of 13] Compiling Data.Matrix.Generic.Mutable ( src\Data\Matrix\Generic\Mutable.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Generic\Mutable.o )
-[ 4 of 13] Compiling Data.Matrix.Generic ( src\Data\Matrix\Generic.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Generic.o )
-[ 5 of 13] Compiling Data.Matrix.Mutable ( src\Data\Matrix\Mutable.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Mutable.o )
-[ 6 of 13] Compiling Data.Matrix      ( src\Data\Matrix.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix.o )
-[ 7 of 13] Compiling Data.Matrix.Sparse.Generic ( src\Data\Matrix\Sparse\Generic.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Sparse\Generic.o )
-[ 8 of 13] Compiling Data.Matrix.Storable.Mutable ( src\Data\Matrix\Storable\Mutable.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Storable\Mutable.o )
-[ 9 of 13] Compiling Data.Matrix.Storable ( src\Data\Matrix\Storable.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Storable.o )
-[10 of 13] Compiling Data.Matrix.Symmetric.Generic.Mutable ( src\Data\Matrix\Symmetric\Generic\Mutable.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Symmetric\Generic\Mutable.o )
-[11 of 13] Compiling Data.Matrix.Symmetric.Generic ( src\Data\Matrix\Symmetric\Generic.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Symmetric\Generic.o )
-[12 of 13] Compiling Data.Matrix.Unboxed.Mutable ( src\Data\Matrix\Unboxed\Mutable.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Unboxed\Mutable.o )
-[13 of 13] Compiling Data.Matrix.Unboxed ( src\Data\Matrix\Unboxed.hs, dist\dist-sandbox-f4714d63\build\Data\Matrix\Unboxed.o )
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\matrices-0.5.0-4BgwHbiU22LHc2rc0fiwS1
+ix.Class.Mutable ( src\Data\Matrix\Class\Mutable.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Class\Mutable.o )
+[ 2 of 13] Compiling Data.Matrix.Class ( src\Data\Matrix\Class.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Class.o )
+[ 3 of 13] Compiling Data.Matrix.Generic.Mutable ( src\Data\Matrix\Generic\Mutable.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Generic\Mutable.o )
+[ 4 of 13] Compiling Data.Matrix.Generic ( src\Data\Matrix\Generic.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Generic.o )
+[ 5 of 13] Compiling Data.Matrix.Mutable ( src\Data\Matrix\Mutable.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Mutable.o )
+[ 6 of 13] Compiling Data.Matrix      ( src\Data\Matrix.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix.o )
+[ 7 of 13] Compiling Data.Matrix.Sparse.Generic ( src\Data\Matrix\Sparse\Generic.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Sparse\Generic.o )
+[ 8 of 13] Compiling Data.Matrix.Storable.Mutable ( src\Data\Matrix\Storable\Mutable.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Storable\Mutable.o )
+[ 9 of 13] Compiling Data.Matrix.Storable ( src\Data\Matrix\Storable.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Storable.o )
+[10 of 13] Compiling Data.Matrix.Symmetric.Generic.Mutable ( src\Data\Matrix\Symmetric\Generic\Mutable.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Symmetric\Generic\Mutable.o )
+[11 of 13] Compiling Data.Matrix.Symmetric.Generic ( src\Data\Matrix\Symmetric\Generic.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Symmetric\Generic.o )
+[12 of 13] Compiling Data.Matrix.Unboxed.Mutable ( src\Data\Matrix\Unboxed\Mutable.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Unboxed\Mutable.o )
+[13 of 13] Compiling Data.Matrix.Unboxed ( src\Data\Matrix\Unboxed.hs, dist\dist-sandbox-6d64ec1\build\Data\Matrix\Unboxed.o )
 
 src\Data\Matrix\Unboxed.hs:307:8: warning: [-Wsimplifiable-class-constraints]
     * The constraint `Unbox (a, b)' matches an instance declaration
@@ -189,4 +189,4 @@ src\Data\Matrix\Unboxed.hs:362:11: warning: [-Wsimplifiable-class-constraints]
     |
 362 | unzip6 :: ( Context a, Context b, Context c, Context d, Context e, Context f
     |           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^...
-cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7029\matrices-0.5.0'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-692\matrices-0.5.0'

@@ -1,6 +1,6 @@
-Installing library in C:\heat-l-shape\.cabal-sandbox\x86_64-windows-ghc-8.6.5\adjunctions-4.4-3bevTBoDBfA70sCuIwsq8U
-d.Trans.Conts ( src\Control\Monad\Trans\Conts.hs, dist\dist-sandbox-f4714d63\build\Control\Monad\Trans\Conts.o )
-[ 2 of 11] Compiling Data.Functor.Contravariant.Rep ( src\Data\Functor\Contravariant\Rep.hs, dist\dist-sandbox-f4714d63\build\Data\Functor\Contravariant\Rep.o )
+Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\adjunctions-4.4-3bevTBoDBfA70sCuIwsq8U
+Monad.Trans.Conts ( src\Control\Monad\Trans\Conts.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Trans\Conts.o )
+[ 2 of 11] Compiling Data.Functor.Contravariant.Rep ( src\Data\Functor\Contravariant\Rep.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Contravariant\Rep.o )
 
 src\Data\Functor\Contravariant\Rep.hs:59:1: warning: [-Winline-rule-shadowing]
     Rule "tabulate/index" may never fire
@@ -9,9 +9,9 @@ src\Data\Functor\Contravariant\Rep.hs:59:1: warning: [-Winline-rule-shadowing]
    |
 59 | "tabulate/index" forall t. tabulate (index t) = t #-}
    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[ 3 of 11] Compiling Data.Functor.Contravariant.Adjunction ( src\Data\Functor\Contravariant\Adjunction.hs, dist\dist-sandbox-f4714d63\build\Data\Functor\Contravariant\Adjunction.o )
-[ 4 of 11] Compiling Control.Monad.Trans.Contravariant.Adjoint ( src\Control\Monad\Trans\Contravariant\Adjoint.hs, dist\dist-sandbox-f4714d63\build\Control\Monad\Trans\Contravariant\Adjoint.o )
-[ 5 of 11] Compiling Data.Functor.Rep ( src\Data\Functor\Rep.hs, dist\dist-sandbox-f4714d63\build\Data\Functor\Rep.o )
+[ 3 of 11] Compiling Data.Functor.Contravariant.Adjunction ( src\Data\Functor\Contravariant\Adjunction.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Contravariant\Adjunction.o )
+[ 4 of 11] Compiling Control.Monad.Trans.Contravariant.Adjoint ( src\Control\Monad\Trans\Contravariant\Adjoint.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Trans\Contravariant\Adjoint.o )
+[ 5 of 11] Compiling Data.Functor.Rep ( src\Data\Functor\Rep.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Rep.o )
 
 src\Data\Functor\Rep.hs:250:1: warning: [-Winline-rule-shadowing]
     Rule "tabulate/index" may never fire
@@ -20,18 +20,18 @@ src\Data\Functor\Rep.hs:250:1: warning: [-Winline-rule-shadowing]
     |
 250 | "tabulate/index" forall t. tabulate (index t) = t #-}
     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-[ 6 of 11] Compiling Data.Functor.Adjunction ( src\Data\Functor\Adjunction.hs, dist\dist-sandbox-f4714d63\build\Data\Functor\Adjunction.o )
+[ 6 of 11] Compiling Data.Functor.Adjunction ( src\Data\Functor\Adjunction.hs, dist\dist-sandbox-6d64ec1\build\Data\Functor\Adjunction.o )
 
 src\Data\Functor\Adjunction.hs:9:14: warning: [-Wtrustworthy-safe]
     `Data.Functor.Adjunction' is marked as Trustworthy but has been inferred as safe!
   |
 9 | {-# LANGUAGE Trustworthy #-}
   |              ^^^^^^^^^^^
-[ 7 of 11] Compiling Control.Monad.Trans.Adjoint ( src\Control\Monad\Trans\Adjoint.hs, dist\dist-sandbox-f4714d63\build\Control\Monad\Trans\Adjoint.o )
-[ 8 of 11] Compiling Control.Comonad.Trans.Adjoint ( src\Control\Comonad\Trans\Adjoint.hs, dist\dist-sandbox-f4714d63\build\Control\Comonad\Trans\Adjoint.o )
-[ 9 of 11] Compiling Control.Monad.Representable.State ( src\Control\Monad\Representable\State.hs, dist\dist-sandbox-f4714d63\build\Control\Monad\Representable\State.o )
-[10 of 11] Compiling Control.Monad.Representable.Reader ( src\Control\Monad\Representable\Reader.hs, dist\dist-sandbox-f4714d63\build\Control\Monad\Representable\Reader.o )
-[11 of 11] Compiling Control.Comonad.Representable.Store ( src\Control\Comonad\Representable\Store.hs, dist\dist-sandbox-f4714d63\build\Control\Comonad\Representable\Store.o )
+[ 7 of 11] Compiling Control.Monad.Trans.Adjoint ( src\Control\Monad\Trans\Adjoint.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Trans\Adjoint.o )
+[ 8 of 11] Compiling Control.Comonad.Trans.Adjoint ( src\Control\Comonad\Trans\Adjoint.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Trans\Adjoint.o )
+[ 9 of 11] Compiling Control.Monad.Representable.State ( src\Control\Monad\Representable\State.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Representable\State.o )
+[10 of 11] Compiling Control.Monad.Representable.Reader ( src\Control\Monad\Representable\Reader.hs, dist\dist-sandbox-6d64ec1\build\Control\Monad\Representable\Reader.o )
+[11 of 11] Compiling Control.Comonad.Representable.Store ( src\Control\Comonad\Representable\Store.hs, dist\dist-sandbox-6d64ec1\build\Control\Comonad\Representable\Store.o )
 
 src\Control\Comonad\Representable\Store.hs:46:1: warning: [-Wunused-imports]
     The import of `Data.Semigroup' is redundant
@@ -40,4 +40,4 @@ src\Control\Comonad\Representable\Store.hs:46:1: warning: [-Wunused-imports]
    |
 46 | import Data.Semigroup
    | ^^^^^^^^^^^^^^^^^^^^^
-cabal: Leaving directory 'C:\Users\gregg\AppData\Local\Temp\cabal-tmp-7030\adjunctions-4.4'
+cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-693\adjunctions-4.4'
