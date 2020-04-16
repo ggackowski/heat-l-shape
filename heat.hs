@@ -2,7 +2,7 @@
 -- 1) cabal sandbox init
 -- 2) cabal install diagrams
 -- 3) cabal exec -- ghc --make heat.hs && ./heat.exe -o heat.svg -w SIZE
---    where SIZE = width of diagram
+--    where SIZE = width of the visualisation
 --    then open heat.svg
 
 import Gauss

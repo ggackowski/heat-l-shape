@@ -1,3 +1,0 @@
-Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\data-default-instances-old-locale-0.0.1-GRzcBvmea5LLGj3CNDMpIw
- 1] Compiling Data.Default.Instances.OldLocale ( Data\Default\Instances\OldLocale.hs, dist\dist-sandbox-6d64ec1\build\Data\Default\Instances\OldLocale.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-692\data-default-instances-old-locale-0.0.1'

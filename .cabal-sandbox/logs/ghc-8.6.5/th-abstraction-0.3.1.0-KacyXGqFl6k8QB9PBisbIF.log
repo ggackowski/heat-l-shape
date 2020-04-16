@@ -1,4 +1,0 @@
-Installing library in F:\Git\Heat\.cabal-sandbox\x86_64-windows-ghc-8.6.5\th-abstraction-0.3.1.0-KacyXGqFl6k8QB9PBisbIF
-guage.Haskell.TH.Datatype.Internal ( src\Language\Haskell\TH\Datatype\Internal.hs, dist\dist-sandbox-6d64ec1\build\Language\Haskell\TH\Datatype\Internal.o )
-[2 of 2] Compiling Language.Haskell.TH.Datatype ( src\Language\Haskell\TH\Datatype.hs, dist\dist-sandbox-6d64ec1\build\Language\Haskell\TH\Datatype.o )
-cabal: Leaving directory 'C:\Users\Greg\AppData\Local\Temp\cabal-tmp-695\th-abstraction-0.3.1.0'
